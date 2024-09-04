@@ -1,0 +1,6 @@
+projects:
+  - title: "A title"
+    subtitle: "Another title"
+    thumbnail: "path/to/jpg"
+    url: "projects/project.html"
+    selected: y

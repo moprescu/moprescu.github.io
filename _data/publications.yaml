@@ -1,0 +1,128 @@
+papers:
+
+  - title: "Estimating Heterogeneous Treatment Effects by Combining Weak Instruments and Observational Data"
+    authors: "<b>Miruna Oprescu</b>, Nathan Kallus"
+    venue: "Preprint. 2024."
+    paper_pdf: "/assets/publications/2024_weak_iv/Weak_Instruments.pdf"
+    arxiv: "https://arxiv.org/pdf/2406.06452"
+    code: "https://github.com/CausalML/Weak-Instruments-Obs-Data-CATE"
+    preprint: y
+    selected: n
+
+  - title: "Low-rank MDPs with Continuous Action Spaces"
+    authors: "Andrew Bennett<sup>‡</sup>, Nathan Kallus<sup>‡</sup>, <b>Miruna Oprescu<sup>‡</sup></b>"
+    venue: "AISTATS'24: International Conference on Artificial Intelligence and Statistics. 2024."
+    paper_pdf: "/assets/publications/2024_low_rank/Low_Rank_MDP.pdf"
+    poster: "/assets/publications/2024_low_rank/Low_Rank_MDP_poster.png"
+    arxiv: "https://arxiv.org/pdf/2311.03564"
+    preprint: n
+    selected: n
+
+  - title: "Efficient and Sharp Off-Policy Evaluation in Robust Markov Decision Processes"
+    authors: "Andrew Bennett<sup>‡</sup>, Nathan Kallus<sup>‡</sup>, <b>Miruna Oprescu<sup>‡</sup></b>, Wen Sun<sup>‡</sup>, Kaiwen Wang<sup>‡</sup>"
+    venue: "Preprint. 2024."
+    paper_pdf: "/assets/publications/2024_robust_MDP/Robust_MDP.pdf"
+    arxiv: "https://arxiv.org/pdf/2404.00099"
+    preprint: y
+    selected: n
+
+  - title: "SubseasonalClimateUSA: A Dataset for Subseasonal Forecasting and Benchmarking"
+    authors: "Soukayna Mouatadid, Paulo Orenstein, Genevieve Flaspohler, <b>Miruna Oprescu</b>, Judah Cohen, Franklyn Wang, Sean Knight, Maria Geogdzhayeva, Sam Levang, Ernest Fraenkel, Lester Mackey"
+    venue: "NeurIPS'23: Advances in Neural Information Processing Systems. 2023."
+    paper_pdf: "/assets/publications/2023_subseasonal_benchmark/Subseasonal_Benchmark.pdf"
+    arxiv: "https://arxiv.org/pdf/2109.10399"
+    code: "https://github.com/microsoft/subseasonal_data/"
+    data: "https://github.com/microsoft/subseasonal_data/"
+    preprint: n
+    selected: n
+
+  - title: "B-Learner: Quasi-Oracle Bounds on Heterogeneous Causal Effects Under Hidden Confounding"
+    authors: "<b>Miruna Oprescu</b>, Jacob Dorn, Marah Ghoummaid, Andrew Jesson, Nathan Kallus, Uri Shalit"
+    venue: "ICML'23: International Conference on Machine Learning. 2023."
+    paper_pdf: "/assets/publications/2023_b_learner/B_Learner.pdf"
+    arxiv: "https://arxiv.org/pdf/2304.10577"
+    code: "https://github.com/CausalML/BLearner"
+    poster: "/assets/publications/2023_b_learner/B_Learner_poster.pdf"
+    selected: y
+    preprint: n
+
+  - title: "Adaptive Bias Correction for Improved Subseasonal Forecasting"
+    authors: "Soukayna Mouatadid, Paulo Orenstein, Genevieve Flaspohler, Judah Cohen, <b>Miruna Oprescu</b>, Ernest Fraenkel, Lester Mackey"
+    venue: "Nature Communications. 2023."
+    paper_pdf: "/assets/publications/2023_adaptive_bias/Adaptive_Bias_Correction.pdf"
+    arxiv: "https://arxiv.org/pdf/2209.10666"
+    code: "https://github.com/microsoft/subseasonal_toolkit"
+    selected: n
+    preprint: n
+
+  - title: "Robust and Agnostic Learning of Conditional Distributional Treatment Effects"
+    authors: "Nathan Kallus<span style='font-size: 20px;''>*</span>, <b>Miruna Oprescu<span style='font-size: 20px;''>*</span></b>"
+    venue: "AISTATS'23: International Conference on Artificial Intelligence and Statistics. 2023."
+    paper_pdf: "/assets/publications/2023_cdte/CDTE.pdf"
+    arxiv: "https://arxiv.org/pdf/2205.11486"
+    code: "https://github.com/CausalML/CDTE"
+    poster: "/assets/publications/2023_cdte/CDTE_poster.pdf"
+    selected: y
+    preprint: n
+
+  - title: "Estimating the Long-Term Effects of Novel Treatments"
+    authors: "Keith Battocchi<sup>‡</sup>, Eleanor Dillon<sup>‡</sup>, Maggie Hei<sup>‡</sup>, Greg Lewis<sup>‡</sup>, <b>Miruna Oprescu</b><sup>‡</sup>, Vasilis Syrgkanis<sup>‡</sup>"
+    venue: "NeurIPS'21: Advances in Neural Information Processing Systems. 2021."
+    paper_pdf: "/assets/publications/2021_novel_treatments/Effects_of_Novel_Treatments.pdf"
+    arxiv: "https://arxiv.org/pdf/2103.08390"
+    selected: y
+    preprint: n
+  
+  - title: "Causal Inference and Machine Learning in Practice with EconML and CausalML: Industrial Use Cases at Microsoft, TripAdvisor, Uber"
+    authors: "Vasilis Syrgkanis, Greg Lewis, <b>Miruna Oprescu</b>, Maggie Hei, Keith Battocchi, Eleanor Dillon, Jing Pan, Yifeng Wu, Paul Lo, Huigang Chen, Totte Harinen, Jeong-Yoon Lee"
+    venue: "SIGKDD'21: Proceedings of the 27th ACM SIGKDD Conference on Knowledge Discovery & Data Mining (Tutorial). 2021."
+    slides: "https://causal-machine-learning.github.io/kdd2021-tutorial/"
+    selected: y
+    preprint: n
+
+  - title: "Online Learning with Optimism and Delay"
+    authors: "Genevieve E Flaspohler, Francesco Orabona, Judah Cohen, Soukayna Mouatadid, <b>Miruna Oprescu</b>, Paulo Orenstein, Lester Mackey"
+    venue: "ICML'21: International Conference on Machine Learning. 2021."
+    paper_pdf: "/assets/publications/2021_online_learning/Online_Learning_with_Optimism_and_Delay.pdf"
+    arxiv: "https://arxiv.org/pdf/2106.06885"
+    code: "https://github.com/geflaspohler/poold"
+    selected: n
+    preprint: n
+
+  - title: "Multifactorial Model to Predict Response to PD-(L) 1 Blockade in Patients with High PD-L1 Metastatic Non-Small Cell Lung Cancer"
+    authors: "Kathryn Arbour, <b>Miruna Oprescu</b>, Joe Hakim, Hira Rizvi, Max Leiserson, Mark Ginsburg, Andrew Plodkowski, Jay Sauter, Isabel Preeshagul, Sharon Gillett, Philip Rosenfield, Lester Mackey, Miro Dudik, Matthew Hellmann"
+    venue: "Journal of Thoracic Oncology (Extended Abstract). 2019."
+    paper_pdf: "/assets/publications/2019_multifactorial_pdl1/Multifactorial_PD_(L)1.pdf"
+    arxiv: "https://www.jto.org/article/S1556-0864(19)31266-3/fulltext"
+    selected: n
+    preprint: n
+
+  - title: "EconML: A Machine Learning Library for Estimating Heterogeneous Treatment Effects"
+    authors: "<b>Miruna Oprescu</b>, Vasilis Syrgkanis, Keith Battocchi, Maggie Hei, Greg Lewis"
+    venue: "NeurIPS'19 <i>Do the right thing</i>: Machine Learning and Causal Inference for Improved Decision Making. 2019."
+    paper_pdf: "/assets/publications/2019_econml/EconML_Workshop.pdf"
+    poster: "/assets/publications/2019_econml/EconML_Workshop_Poster.pdf"
+    slides: "/assets/publications/2019_econml/EconML_Workshop_Slides.pdf"
+    code: "https://github.com/py-why/EconML"
+    selected: y
+    preprint: n
+
+  - title: "Machine Learning Estimation of Heterogeneous Treatment Effects with Instruments"
+    authors: "Vasilis Syrgkanis, Victor Lei, <b>Miruna Oprescu</b>, Maggie Hei, Keith Battocchi, Greg Lewis"
+    venue: "NeurIPS'19: Advances in Neural Information Processing Systems. 2019. <b>Spotlight</b>."
+    paper_pdf: "/assets/publications/2019_dmliv/DMLIV.pdf"
+    arxiv: "https://arxiv.org/pdf/1905.10176"
+    code: "https://github.com/py-why/EconML/tree/main/prototypes/dml_iv"
+    poster: "/assets/publications/2019_dmliv/DMLIV_poster.pdf"
+    selected: y
+    preprint: n
+
+  - title: "Orthogonal Random Forest for Causal Inference"
+    authors: "<b>Miruna Oprescu</b><sup>‡</sup>, Vasilis Syrgkanis<sup>‡</sup>, Zhiwei Steven Wu<sup>‡</sup>"
+    venue: "ICML'19: International Conference on Machine Learning. 2019."
+    paper_pdf: "/assets/publications/2019_ortho_forest/OrthoForest.pdf"
+    arxiv: "https://arxiv.org/pdf/1806.03467"
+    code: "https://github.com/py-why/EconML/tree/main/prototypes/orthogonal_forests"
+    poster: "/assets/publications/2019_ortho_forest/OrthoForest_poster.pdf"
+    selected: y
+    preprint: n

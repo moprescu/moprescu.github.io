@@ -1,0 +1,43 @@
+experiences:
+
+- place: "Cornell University"
+  time: "2021 - now"
+  title: "Ph.D. in Computer Science"
+  subtitle: "Minor: Operations Research <br/> Adviser: Nathan Kallus"
+  category: "school"
+
+- place: "Brookhaven National Laboratory"
+  time: "May-Aug 2024"
+  title: "Research Intern"
+  subtitle: "Computational Science Initiative <br/> Mentor: Shinjae Yoo"
+  category: "work"  
+
+- place: "Netflix"
+  time: "May-Aug 2022"
+  title: "Machine Learning Intern"
+  subtitle: "Customer Machine Learning Group <br/> Mentors: Sudeep Das, Aish Fenton"
+  category: "work"
+
+- place: "Microsoft Research"
+  time: "2017 - 2021"
+  title: "Senior Data and Applied Scientist"
+  subtitle: "<a href='https://www.microsoft.com/en-us/research/group/alice/'>ALICE</a> Team <br/> Core Contributior to <a href='https://github.com/py-why/EconML'>EconML</a>"
+  category: "work"
+
+- place: "Microsoft"
+  time: "2015 - 2017"
+  title: "Software Development Engineer"
+  subtitle: "Cloud Machine Learning Group"
+  category: "work"
+
+- place: "Harvard University"
+  time: "2011 - 2015"
+  title: "Joint A.B. in Physics and Mathematics"
+  subtitle: "Minor: Computer Science"
+  category: "school"
+
+- place: "Johns Hopkins University"
+  time: "May-Aug 2014"
+  title: "Research Intern"
+  subtitle: "Mentor: Suchi Saria"
+  category: "work"
