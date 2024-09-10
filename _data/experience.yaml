@@ -10,7 +10,13 @@ experiences:
   time: "May-Aug 2024"
   title: "Research Intern"
   subtitle: "Computational Science Initiative <br/> Mentor: Shinjae Yoo"
-  category: "work"  
+  category: "work" 
+
+- place: "Cornell University"
+  time: "August 2024"
+  title: "M.S. in Computer Science"
+  subtitle: "Awarded enroute to Ph.D."
+  category: "school" 
 
 - place: "Netflix"
   time: "May-Aug 2022"
