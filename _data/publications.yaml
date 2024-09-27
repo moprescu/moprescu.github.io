@@ -2,12 +2,12 @@ papers:
 
   - title: "Estimating Heterogeneous Treatment Effects by Combining Weak Instruments and Observational Data"
     authors: "<b>Miruna Oprescu</b>, Nathan Kallus"
-    venue: "Preprint. 2024."
+    venue: "NeurIPS'24: Advances in Neural Information Processing Systems. 2024."
     paper_pdf: "/assets/publications/2024_weak_iv/Weak_Instruments.pdf"
     arxiv: "https://arxiv.org/pdf/2406.06452"
     code: "https://github.com/CausalML/Weak-Instruments-Obs-Data-CATE"
-    preprint: y
-    selected: n
+    preprint: n
+    selected: y
 
   - title: "Low-rank MDPs with Continuous Action Spaces"
     authors: "Andrew Bennett<sup>‡</sup>, Nathan Kallus<sup>‡</sup>, <b>Miruna Oprescu<sup>‡</sup></b>"
@@ -20,11 +20,11 @@ papers:
 
   - title: "Efficient and Sharp Off-Policy Evaluation in Robust Markov Decision Processes"
     authors: "Andrew Bennett<sup>‡</sup>, Nathan Kallus<sup>‡</sup>, <b>Miruna Oprescu<sup>‡</sup></b>, Wen Sun<sup>‡</sup>, Kaiwen Wang<sup>‡</sup>"
-    venue: "Preprint. 2024."
+    venue: "NeurIPS'24: Advances in Neural Information Processing Systems. 2024."
     paper_pdf: "/assets/publications/2024_robust_MDP/Robust_MDP.pdf"
     arxiv: "https://arxiv.org/pdf/2404.00099"
-    preprint: y
-    selected: n
+    preprint: n
+    selected: y
 
   - title: "SubseasonalClimateUSA: A Dataset for Subseasonal Forecasting and Benchmarking"
     authors: "Soukayna Mouatadid, Paulo Orenstein, Genevieve Flaspohler, <b>Miruna Oprescu</b>, Judah Cohen, Franklyn Wang, Sean Knight, Maria Geogdzhayeva, Sam Levang, Ernest Fraenkel, Lester Mackey"
