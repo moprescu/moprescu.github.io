@@ -21,7 +21,7 @@ papers:
   - title: "Efficient and Sharp Off-Policy Evaluation in Robust Markov Decision Processes"
     authors: "Andrew Bennett<sup>‡</sup>, Nathan Kallus<sup>‡</sup>, <b>Miruna Oprescu<sup>‡</sup></b>, Wen Sun<sup>‡</sup>, Kaiwen Wang<sup>‡</sup>"
     venue: "NeurIPS'24: Advances in Neural Information Processing Systems. 2024."
-    paper_pdf: "/assets/publications/2024_robust_MDP/Robust_MDP.pdf"
+    paper_pdf: "/assets/publications/2024_robust_mdp/Robust_MDP.pdf"
     arxiv: "https://arxiv.org/pdf/2404.00099"
     preprint: n
     selected: y
