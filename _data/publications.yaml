@@ -23,6 +23,7 @@ papers:
     venue: "NeurIPS'24: Advances in Neural Information Processing Systems. 2024."
     paper_pdf: "/assets/publications/2024_robust_mdp/Robust_MDP.pdf"
     arxiv: "https://arxiv.org/pdf/2404.00099"
+    code: "https://github.com/CausalML/adversarial-ope/"
     preprint: n
     selected: y
 
