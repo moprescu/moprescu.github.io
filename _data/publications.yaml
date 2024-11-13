@@ -4,6 +4,7 @@ papers:
     authors: "<b>Miruna Oprescu</b>, Nathan Kallus"
     venue: "NeurIPS'24: Advances in Neural Information Processing Systems. 2024."
     paper_pdf: "/assets/publications/2024_weak_iv/Weak_Instruments.pdf"
+    slides: "/assets/publications/2024_weak_iv/Weak_Instruments_Slides.pdf"
     arxiv: "https://arxiv.org/pdf/2406.06452"
     code: "https://github.com/CausalML/Weak-Instruments-Obs-Data-CATE"
     preprint: n
