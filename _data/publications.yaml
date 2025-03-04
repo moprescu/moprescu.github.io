@@ -1,5 +1,14 @@
 papers:
 
+  - title: "GST-UNet: Spatiotemporal Causal Inference with Time-Varying Confounders"
+    authors: "<b>Miruna Oprescu</b>, David K. Park, Xihaier Luo, Shinjae Yoo, Nathan Kallus"
+    venue: "Preprint. 2025."
+    paper_pdf: "/assets/publications/2025_gstunet/Spatiotemporal_G_Computation.pdf"
+    arxiv: "https://arxiv.org/pdf/2502.05295"
+    code: "https://github.com/moprescu/GSTUNet"
+    preprint: y
+    selected: n
+
   - title: "Estimating Heterogeneous Treatment Effects by Combining Weak Instruments and Observational Data"
     authors: "<b>Miruna Oprescu</b>, Nathan Kallus"
     venue: "NeurIPS'24: Advances in Neural Information Processing Systems. 2024."
