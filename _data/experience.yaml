@@ -6,6 +6,12 @@ experiences:
   subtitle: "Minor: Operations Research <br/> Adviser: Nathan Kallus"
   category: "school"
 
+- place: "Netflix"
+  time: "May - Aug 2025"
+  title: "Machine Learning Research Intern"
+  subtitle: "Machine Learning and Inference Research <br/> Mentors: Nathan Kallus, David Hubbard"
+  category: "work"
+
 - place: "Cornell University"
   time: "Dec 2024"
   title: "M.S. in Computer Science"
@@ -20,8 +26,8 @@ experiences:
 
 - place: "Netflix"
   time: "May - Aug 2022"
-  title: "Machine Learning Intern"
-  subtitle: "Customer Machine Learning Group <br/> Mentors: Sudeep Das, Aish Fenton"
+  title: "Machine Learning Research Intern"
+  subtitle: "Algirithms Engineering Group <br/> Mentors: Sudeep Das, Aish Fenton"
   category: "work"
 
 - place: "Microsoft Research"

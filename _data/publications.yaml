@@ -1,5 +1,14 @@
 papers:
 
+  - title: "Efficient Adaptive Experimentation with Non-Compliance"
+    authors: "<b>Miruna Oprescu</b>, Brian M Cho, Nathan Kallus"
+    venue: "Preprint. 2025."
+    paper_pdf: "/assets/publications/2025_adaptive_iv/Adaptive_IV.pdf"
+    arxiv: "https://arxiv.org/pdf/2505.17468"
+    code: "https://github.com/CausalML/Adaptive-IV"
+    preprint: y
+    selected: n
+
   - title: "GST-UNet: Spatiotemporal Causal Inference with Time-Varying Confounders"
     authors: "<b>Miruna Oprescu</b>, David K. Park, Xihaier Luo, Shinjae Yoo, Nathan Kallus"
     venue: "Preprint. 2025."
