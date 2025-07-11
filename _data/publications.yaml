@@ -13,6 +13,7 @@ papers:
     authors: "<b>Miruna Oprescu</b>, David K. Park, Xihaier Luo, Shinjae Yoo, Nathan Kallus"
     venue: "Preprint. 2025."
     paper_pdf: "/assets/publications/2025_gstunet/Spatiotemporal_G_Computation.pdf"
+    slides: "/assets/publications/2025_gstunet/GSTUNet_Slides.pdf"
     arxiv: "https://arxiv.org/pdf/2502.05295"
     code: "https://github.com/moprescu/GSTUNet"
     preprint: y
