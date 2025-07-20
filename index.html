@@ -60,8 +60,8 @@ title: Home
   I hold an A.B. in Physics and Mathematics with a minor in Computer Science from Harvard University.
   </p> 
   <p align="justify">
-  I also serve on the board of the <a href="https://ssp.org/" target="_blank">Summer Science Program</a>, a nonprofit that provides immersive research experiences for exceptional high school students. 
-  As an alumna (SSP'09) and board member, I'm excited to support SSP's mission and help shape its long-term vision.
+  I also serve on the board of the <a href="https://ssp.org/" target="_blank">Summer Science Program</a> (SSP), a nonprofit that provides immersive research experiences for exceptional high school students. 
+  SSP was a transformative experience for me as an alumna (SSP'09), and I'm thrilled to support its mission and help shape its future.
   </p>
 </div>
 
@@ -163,40 +163,26 @@ title: Home
       {% assign selected_papers = site.data.publications.papers | where: "selected", "y" %}
       {% for paper in selected_papers %}
         <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
-          {% if paper.venue %}
-            <p><i>{{ paper.venue }}</i></p>
-          {% endif %}
-           <div class="paper-buttons">
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-            {% endif %}
-
-            {% if paper.arxiv %}
-              <a class="button" href="{{ paper.arxiv }}" target="_blank">Arxiv</a>
-            {% endif %}
-
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
-
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-            {% endif %}
-
-            {% if paper.video %}
-              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-            {% endif %}
-
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-            {% endif %}
-
-            {% if paper.data %}
-              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
-            {% endif %}
-
+          <div class="paper-container">
+            <div class="paper-image">
+              <img src="{{ paper.image | default: '/assets/publications/paper-placeholder.png' }}" alt="thumbnail for {{ paper.title }}">
+            </div>
+            <div class="paper-details">
+              <p class="title"><b>{{ paper.title }}</b></p>
+              <p>{{ paper.authors }}</p>
+              {% if paper.venue %}
+                <p><i>{{ paper.venue }}</i></p>
+              {% endif %}
+              <div class="paper-buttons">
+                {% if paper.paper_pdf %}<a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>{% endif %}
+                {% if paper.arxiv %}<a class="button" href="{{ paper.arxiv }}" target="_blank">Arxiv</a>{% endif %}
+                {% if paper.slides %}<a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>{% endif %}
+                {% if paper.poster %}<a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>{% endif %}
+                {% if paper.video %}<a class="button" href="{{ paper.video }}" target="_blank">Video</a>{% endif %}
+                {% if paper.code %}<a class="button" href="{{ paper.code }}" target="_blank">Code</a>{% endif %}
+                {% if paper.data %}<a class="button" href="{{ paper.data }}" target="_blank">Data</a>{% endif %}
+              </div>
+            </div>
           </div>
         </div>
       {% endfor %}
@@ -206,40 +192,26 @@ title: Home
       {% assign selected_papers = site.data.publications.papers | where: "preprint", "y" %}
       {% for paper in selected_papers %}
         <div class="paper">
-          <p class="title"><b>{{ paper.title }}</b></p>
-          <p>{{ paper.authors }}</p>
-          {% if paper.venue %}
-            <p><i>{{ paper.venue }}</i></p>
-          {% endif %}
-           <div class="paper-buttons">
-            {% if paper.paper_pdf %}
-              <a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>
-            {% endif %}
-
-            {% if paper.arxiv %}
-              <a class="button" href="{{ paper.arxiv }}" target="_blank">Arxiv</a>
-            {% endif %}
-
-            {% if paper.slides %}
-              <a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>
-            {% endif %}
-
-            {% if paper.poster %}
-              <a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>
-            {% endif %}
-
-            {% if paper.video %}
-              <a class="button" href="{{ paper.video }}" target="_blank">Video</a>
-            {% endif %}
-
-            {% if paper.code %}
-              <a class="button" href="{{ paper.code }}" target="_blank">Code</a>
-            {% endif %}
-
-            {% if paper.data %}
-              <a class="button" href="{{ paper.data }}" target="_blank">Data</a>
-            {% endif %}
-
+          <div class="paper-container">
+            <div class="paper-image">
+              <img src="{{ paper.image | default: '/assets/publications/paper-placeholder.png' }}" alt="thumbnail for {{ paper.title }}">
+            </div>
+            <div class="paper-details">
+              <p class="title"><b>{{ paper.title }}</b></p>
+              <p>{{ paper.authors }}</p>
+              {% if paper.venue %}
+                <p><i>{{ paper.venue }}</i></p>
+              {% endif %}
+              <div class="paper-buttons">
+                {% if paper.paper_pdf %}<a class="button" href="{{ paper.paper_pdf | prepend: site.baseurl }}" target="_blank">Paper</a>{% endif %}
+                {% if paper.arxiv %}<a class="button" href="{{ paper.arxiv }}" target="_blank">Arxiv</a>{% endif %}
+                {% if paper.slides %}<a class="button" href="{{ paper.slides | prepend: site.baseurl }}" target="_blank">Slides</a>{% endif %}
+                {% if paper.poster %}<a class="button" href="{{ paper.poster | prepend: site.baseurl }}" target="_blank">Poster</a>{% endif %}
+                {% if paper.video %}<a class="button" href="{{ paper.video }}" target="_blank">Video</a>{% endif %}
+                {% if paper.code %}<a class="button" href="{{ paper.code }}" target="_blank">Code</a>{% endif %}
+                {% if paper.data %}<a class="button" href="{{ paper.data }}" target="_blank">Data</a>{% endif %}
+              </div>
+            </div>
           </div>
         </div>
       {% endfor %}

@@ -17,6 +17,28 @@ h4 {
   margin-bottom: 20px }
 .paper .title {
   /*text-transform: uppercase; */}
+.paper-container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+}
+.paper-image {
+  flex: 0 0 160px;
+  margin-right: 20px;
+}
+.paper-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  border-radius: 4px;
+  box-shadow: 0 0 4px rgba(0,0,0,0.1);
+}
+.paper-details {
+  flex: 1;
+}
+.paper-details .title {
+   /*text-transform: uppercase; */
+}
 .paper p {
   margin-bottom: 2px }
 .paper-buttons {
