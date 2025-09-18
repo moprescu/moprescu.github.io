@@ -2,24 +2,24 @@ papers:
 
   - title: "Efficient Adaptive Experimentation with Non-Compliance"
     authors: "<b>Miruna Oprescu</b>, Brian M Cho, Nathan Kallus"
-    venue: "Preprint. 2025."
+    venue: "NeurIPS'25: Advances in Neural Information Processing Systems. 2025."
     image: "/assets/publications/2025_adaptive_iv/Adaptive_IV_diagram_2.png"
     paper_pdf: "/assets/publications/2025_adaptive_iv/Adaptive_IV.pdf"
     arxiv: "https://arxiv.org/pdf/2505.17468"
     code: "https://github.com/CausalML/Adaptive-IV"
-    preprint: y
-    selected: n
+    preprint: n
+    selected: y
 
-  - title: "GST-UNet: Spatiotemporal Causal Inference with Time-Varying Confounders"
+  - title: "GST-UNet: A Neural Framework for Spatiotemporal Causal Inference with Time-Varying Confounding"
     authors: "<b>Miruna Oprescu</b>, David K. Park, Xihaier Luo, Shinjae Yoo, Nathan Kallus"
-    venue: "Preprint. 2025."
+    venue: "NeurIPS'25: Advances in Neural Information Processing Systems. 2025."
     image: "/assets/publications/2025_gstunet/GSTUNet_diagram.png"
     paper_pdf: "/assets/publications/2025_gstunet/Spatiotemporal_G_Computation.pdf"
     slides: "/assets/publications/2025_gstunet/GSTUNet_Slides.pdf"
     arxiv: "https://arxiv.org/pdf/2502.05295"
     code: "https://github.com/moprescu/GSTUNet"
-    preprint: y
-    selected: n
+    preprint: n
+    selected: y
 
   - title: "Estimating Heterogeneous Treatment Effects by Combining Weak Instruments and Observational Data"
     authors: "<b>Miruna Oprescu</b>, Nathan Kallus"
