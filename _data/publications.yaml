@@ -1,5 +1,15 @@
 papers:
 
+  - title: "Spatial Deconfounder: Interference-Aware Deconfounding for Spatial Causal Inference"
+    authors: "Ayush Khot<span style='font-size: 20px;''>*</span>, <b>Miruna Oprescu<span style='font-size: 20px;''>*</span></b>, Maresa Schröder, Ai Kagawa, Xihaier Luo"
+    venue: "Preprint. 2025."
+    image: "/assets/publications/2025_spatial_deconfounder/Spatial_Deconfounder_diagram_2.png"
+    paper_pdf: "/assets/publications/2025_spatial_deconfounder/Spatial_Deconfounder.pdf"
+    arxiv: "https://arxiv.org/pdf/2510.08762"
+    code: "https://github.com/moprescu/Spatial-CI"
+    preprint: y
+    selected: n
+
   - title: "Efficient Adaptive Experimentation with Non-Compliance"
     authors: "<b>Miruna Oprescu</b>, Brian M Cho, Nathan Kallus"
     venue: "NeurIPS'25: Advances in Neural Information Processing Systems. 2025."
@@ -34,7 +44,7 @@ papers:
     selected: y
 
   - title: "Low-rank MDPs with Continuous Action Spaces"
-    authors: "Andrew Bennett<sup>‡</sup>, Nathan Kallus<sup>‡</sup>, <b>Miruna Oprescu<sup>‡</sup></b>"
+    authors: "Andrew Bennett<span style='font-size: 20px;''>*</span>, Nathan Kallus<span style='font-size: 20px;''>*</span>, <b>Miruna Oprescu<span style='font-size: 20px;''>*</span></b>"
     venue: "AISTATS'24: International Conference on Artificial Intelligence and Statistics. 2024."
     paper_pdf: "/assets/publications/2024_low_rank/Low_Rank_MDP.pdf"
     poster: "/assets/publications/2024_low_rank/Low_Rank_MDP_poster.png"
@@ -43,7 +53,7 @@ papers:
     selected: n
 
   - title: "Efficient and Sharp Off-Policy Evaluation in Robust Markov Decision Processes"
-    authors: "Andrew Bennett<sup>‡</sup>, Nathan Kallus<sup>‡</sup>, <b>Miruna Oprescu<sup>‡</sup></b>, Wen Sun<sup>‡</sup>, Kaiwen Wang<sup>‡</sup>"
+    authors: "Andrew Bennett, Nathan Kallus, <b>Miruna Oprescu<span style='font-size: 20px;''>*</span></b>, Wen Sun, Kaiwen Wang<span style='font-size: 20px;''>*</span>"
     venue: "NeurIPS'24: Advances in Neural Information Processing Systems. 2024."
     image: "/assets/publications/2024_robust_mdp/Robust_MDP_diagram.png"
     paper_pdf: "/assets/publications/2024_robust_mdp/Robust_MDP.pdf"
@@ -151,7 +161,7 @@ papers:
     preprint: n
 
   - title: "Orthogonal Random Forest for Causal Inference"
-    authors: "<b>Miruna Oprescu</b><sup>‡</sup>, Vasilis Syrgkanis<sup>‡</sup>, Zhiwei Steven Wu<sup>‡</sup>"
+    authors: "<b>Miruna Oprescu<span style='font-size: 20px;''>*</span></b>, Vasilis Syrgkanis<span style='font-size: 20px;''>*</span>, Zhiwei Steven Wu<span style='font-size: 20px;''>*</span>"
     venue: "ICML'19: International Conference on Machine Learning. 2019."
     image: "/assets/publications/2019_ortho_forest/OrthoForest_diagram.png"
     paper_pdf: "/assets/publications/2019_ortho_forest/OrthoForest.pdf"
