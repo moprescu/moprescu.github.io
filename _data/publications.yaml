@@ -24,7 +24,7 @@ papers:
     authors: "<b>Miruna Oprescu</b>, David K. Park, Xihaier Luo, Shinjae Yoo, Nathan Kallus"
     venue: "NeurIPS'25: Advances in Neural Information Processing Systems. 2025."
     image: "/assets/publications/2025_gstunet/GSTUNet_diagram.png"
-    paper_pdf: "/assets/publications/2025_gstunet/Spatiotemporal_G_Computation.pdf"
+    paper_pdf: "/assets/publications/2025_gstunet/GSTUNet.pdf"
     slides: "/assets/publications/2025_gstunet/GSTUNet_Slides.pdf"
     arxiv: "https://arxiv.org/pdf/2502.05295"
     code: "https://github.com/moprescu/GSTUNet"
