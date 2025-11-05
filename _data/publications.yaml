@@ -10,7 +10,7 @@ papers:
     preprint: y
     selected: n
 
-  - title: "Efficient Adaptive Experimentation with Non-Compliance"
+  - title: "Efficient Adaptive Experimentation with Noncompliance"
     authors: "<b>Miruna Oprescu</b>, Brian M Cho, Nathan Kallus"
     venue: "NeurIPS'25: Advances in Neural Information Processing Systems. 2025."
     image: "/assets/publications/2025_adaptive_iv/Adaptive_IV_diagram_2.png"
