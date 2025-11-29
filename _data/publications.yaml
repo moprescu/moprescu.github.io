@@ -15,6 +15,7 @@ papers:
     venue: "NeurIPS'25: Advances in Neural Information Processing Systems. 2025."
     image: "/assets/publications/2025_adaptive_iv/Adaptive_IV_diagram_2.png"
     paper_pdf: "/assets/publications/2025_adaptive_iv/Adaptive_IV.pdf"
+    slides: "/assets/publications/2025_adaptive_iv/Adaptive_IV_Slides.pdf"
     arxiv: "https://arxiv.org/pdf/2505.17468"
     code: "https://github.com/CausalML/Adaptive-IV"
     preprint: n
