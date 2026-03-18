@@ -1,5 +1,14 @@
 papers:
 
+  - title: "Causal Inference on Networks under Misspecified Exposure Mappings: A Partial Identification Framework"
+    authors: "Maresa Schröder, <b>Miruna Oprescu</b>, Stefan Feuerriegel, Nathan Kallus"
+    venue: "Preprint. 2026."
+    image: /assets/publications/2026_networks_partialid/Networks_PartialID_diagram.png
+    paper_pdf: /assets/publications/2026_networks_partialid/Networks_PartialID.pdf
+    arxiv: "https://arxiv.org/pdf/2602.03459"
+    preprint: y
+    selected: n
+
   - title: "Spatial Deconfounder: Interference-Aware Deconfounding for Spatial Causal Inference"
     authors: "Ayush Khot<span style='font-size: 20px;''>*</span>, <b>Miruna Oprescu<span style='font-size: 20px;''>*</span></b>, Maresa Schröder, Ai Kagawa, Xihaier Luo"
     venue: "Preprint. 2025."
