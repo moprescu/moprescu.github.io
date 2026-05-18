@@ -20,13 +20,13 @@ papers:
 
   - title: "Spatial Deconfounder: Interference-Aware Deconfounding for Spatial Causal Inference"
     authors: "Ayush Khot<span style='font-size: 20px;''>*</span>, <b>Miruna Oprescu<span style='font-size: 20px;''>*</span></b>, Maresa Schröder, Ai Kagawa, Xihaier Luo"
-    venue: "Preprint. 2025."
+    venue: "ICML'26: International Conference on Machine Learning. 2026."
     image: "/assets/publications/2025_spatial_deconfounder/Spatial_Deconfounder_diagram_2.png"
     paper_pdf: "/assets/publications/2025_spatial_deconfounder/Spatial_Deconfounder.pdf"
     arxiv: "https://arxiv.org/pdf/2510.08762"
     code: "https://github.com/moprescu/Spatial-CI"
-    preprint: y
-    selected: n
+    preprint: n
+    selected: y
 
   - title: "Efficient Adaptive Experimentation with Noncompliance"
     authors: "<b>Miruna Oprescu</b>, Brian M Cho, Nathan Kallus"
