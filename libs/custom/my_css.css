@@ -97,6 +97,8 @@ h4 {
 @media (min-width: 550px) {
   .header {
     margin-top: 5rem; }
+  .header .three.columns {
+    padding-top: 1rem; }
 }
 
 /* Larger than tablet */
