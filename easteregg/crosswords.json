@@ -1,0 +1,182 @@
+[
+  {
+    "id": "animals",
+    "title": "Animals We Love",
+    "emoji": "🐾",
+    "difficulty": "easy",
+    "grid": [
+      ["C","A","T","#","D"],
+      ["#","#","#","#","O"],
+      ["#","B","I","R","D"],
+      ["#","#","#","#","#"],
+      ["F","I","S","H","#"]
+    ],
+    "words": [
+      {
+        "id": "cat",
+        "word": "CAT",
+        "clue": "A furry pet that says meow",
+        "row": 0, "col": 0,
+        "direction": "across",
+        "number": 1
+      },
+      {
+        "id": "dog",
+        "word": "DOG",
+        "clue": "A pet that barks and wags its tail",
+        "row": 0, "col": 4,
+        "direction": "down",
+        "number": 2
+      },
+      {
+        "id": "bird",
+        "word": "BIRD",
+        "clue": "An animal that can fly",
+        "row": 2, "col": 1,
+        "direction": "across",
+        "number": 3
+      },
+      {
+        "id": "fish",
+        "word": "FISH",
+        "clue": "Swims in water",
+        "row": 4, "col": 0,
+        "direction": "across",
+        "number": 4
+      }
+    ]
+  },
+  {
+    "id": "colors",
+    "title": "Rainbow Colors",
+    "emoji": "🌈",
+    "difficulty": "easy",
+    "grid": [
+      ["R","E","D","#","#"],
+      ["#","#","#","#","#"],
+      ["B","L","U","E","#"],
+      ["#","#","#","#","#"],
+      ["G","R","E","E","N"]
+    ],
+    "words": [
+      {
+        "id": "red",
+        "word": "RED",
+        "clue": "Color of a strawberry",
+        "row": 0, "col": 0,
+        "direction": "across",
+        "number": 1
+      },
+      {
+        "id": "blue",
+        "word": "BLUE",
+        "clue": "Color of the sky",
+        "row": 2, "col": 0,
+        "direction": "across",
+        "number": 2
+      },
+      {
+        "id": "green",
+        "word": "GREEN",
+        "clue": "Color of grass",
+        "row": 4, "col": 0,
+        "direction": "across",
+        "number": 3
+      }
+    ]
+  },
+  {
+    "id": "space",
+    "title": "Outer Space",
+    "emoji": "🚀",
+    "difficulty": "medium",
+    "grid": [
+      ["S","U","N","#","#"],
+      ["#","#","#","#","#"],
+      ["M","O","O","N","#"],
+      ["#","#","#","#","#"],
+      ["S","T","A","R","S"]
+    ],
+    "words": [
+      {
+        "id": "sun",
+        "word": "SUN",
+        "clue": "The big bright star in our sky",
+        "row": 0, "col": 0,
+        "direction": "across",
+        "number": 1
+      },
+      {
+        "id": "moon",
+        "word": "MOON",
+        "clue": "Shines at night, we see it from Earth",
+        "row": 2, "col": 0,
+        "direction": "across",
+        "number": 2
+      },
+      {
+        "id": "stars",
+        "word": "STARS",
+        "clue": "Tiny lights we see in the sky at night",
+        "row": 4, "col": 0,
+        "direction": "across",
+        "number": 3
+      }
+    ]
+  },
+  {
+  "id": "animals-nature",
+  "title": "Animals & Nature",
+  "emoji": "🦈",
+  "difficulty": "easy",
+  "grid": [
+    ["B", "#", "D", "#", "S"],
+    ["E", "A", "R", "T", "H"],
+    ["A", "#", "E", "#", "A"],
+    ["C", "H", "A", "I", "R"],
+    ["H", "#", "M", "#", "K"]
+  ],
+  "words": [
+    {
+      "id": "beach",
+      "word": "BEACH",
+      "clue": "A sandy place by the sea where you build castles",
+      "row": 0, "col": 0,
+      "direction": "down",
+      "number": 1
+    },
+    {
+      "id": "dream",
+      "word": "DREAM",
+      "clue": "The little movie in your head while you sleep",
+      "row": 0, "col": 2,
+      "direction": "down",
+      "number": 2
+    },
+    {
+      "id": "shark",
+      "word": "SHARK",
+      "clue": "A big fish with sharp teeth that lives in the ocean",
+      "row": 0, "col": 4,
+      "direction": "down",
+      "number": 3
+    },
+    {
+      "id": "earth",
+      "word": "EARTH",
+      "clue": "The planet we all live on",
+      "row": 1, "col": 0,
+      "direction": "across",
+      "number": 4
+    },
+    {
+      "id": "chair",
+      "word": "CHAIR",
+      "clue": "You sit down on this",
+      "row": 3, "col": 0,
+      "direction": "across",
+      "number": 5
+    }
+  ]
+}
+]
