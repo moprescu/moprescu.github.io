@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Family Crosswords 🧩</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🧩</text></svg>">
   <style>
     :root {
       --bg: #fdf6ec;
@@ -50,6 +51,7 @@
     .login-card .emoji { font-size: 3.5rem; display: block; margin-bottom: 0.5rem; }
     .login-card h1 { font-size: 1.8rem; color: var(--primary); margin-bottom: 0.3rem; }
     .login-card p { color: #888; margin-bottom: 1.5rem; font-size: 0.95rem; }
+    .welcome-note { color: var(--text); font-size: 0.95rem; background: #fff8f0; border-left: 3px solid var(--primary); border-radius: 8px; padding: 0.8rem 1rem; margin-bottom: 1.2rem; line-height: 1.5; }
 
     .login-card input {
       width: 100%;
@@ -223,13 +225,58 @@
     }
 
     .cell {
-      width: 52px;
-      height: 52px;
+      width: var(--cell-size, 52px);
+      height: var(--cell-size, 52px);
       position: relative;
       background: white;
     }
 
     .cell.black { background: #2d2d2d; border-radius: 3px; }
+
+    .theme-toggle {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      margin-left: auto;
+      cursor: pointer;
+      flex-shrink: 0;
+    }
+    .theme-toggle input { display: none; }
+    .theme-toggle-track {
+      width: 36px;
+      height: 20px;
+      background: #ccc;
+      border-radius: 99px;
+      position: relative;
+      transition: background 0.2s;
+      flex-shrink: 0;
+    }
+    .theme-toggle-track::after {
+      content: '';
+      position: absolute;
+      width: 16px; height: 16px;
+      background: white;
+      border-radius: 50%;
+      top: 2px; left: 2px;
+      transition: transform 0.2s;
+      box-shadow: 0 1px 3px rgba(0,0,0,0.25);
+    }
+    .theme-toggle input:checked ~ .theme-toggle-track { background: var(--secondary); }
+    .theme-toggle input:checked ~ .theme-toggle-track::after { transform: translateX(16px); }
+    .theme-toggle-label { font-size: 0.78rem; color: #888; font-weight: 600; }
+
+    .hide-theme .cell.theme-cell::after { display: none; }
+
+    .cell.theme-cell::after {
+      content: '';
+      position: absolute;
+      inset: calc(var(--cell-size, 52px) * 0.08);
+      border-radius: 50%;
+      border: 2px solid var(--secondary);
+      pointer-events: none;
+      z-index: 2;
+      opacity: 0.55;
+    }
 
     .cell input {
       position: absolute;
@@ -239,14 +286,14 @@
       border: none;
       outline: none;
       text-align: center;
-      font-size: 1.35rem;
+      font-size: calc(var(--cell-size, 52px) * 0.42);
       font-weight: 800;
       color: var(--text);
       background: transparent;
       text-transform: uppercase;
       cursor: pointer;
       caret-color: transparent;
-      padding-top: 10px;
+      padding-top: calc(var(--cell-size, 52px) * 0.19);
     }
 
     .cell input.correct { color: var(--green); }
@@ -258,7 +305,7 @@
       position: absolute;
       top: 2px;
       left: 3px;
-      font-size: 0.58rem;
+      font-size: calc(var(--cell-size, 52px) * 0.19);
       font-weight: 700;
       color: #666;
       line-height: 1;
@@ -272,8 +319,74 @@
 
     @media (max-width: 480px) {
       .clues-cols { grid-template-columns: 1fr; }
-      .cell { width: 44px; height: 44px; }
-      .cell input { font-size: 1.1rem; }
+    }
+
+    /* ── MOBILE KEYBOARD ── */
+    #kb-bar {
+      display: none;
+      position: fixed;
+      bottom: 0; left: 0; right: 0;
+      background: #d1d5db;
+      padding: 6px 4px calc(6px + env(safe-area-inset-bottom));
+      box-shadow: 0 -2px 10px rgba(0,0,0,0.18);
+      z-index: 100;
+    }
+
+    #kb-clue {
+      background: white;
+      padding: 7px 12px;
+      border-radius: 8px;
+      margin-bottom: 6px;
+      display: flex;
+      align-items: baseline;
+      gap: 0.5rem;
+      min-height: 34px;
+      font-size: 0.88rem;
+      line-height: 1.3;
+    }
+
+    #kb-clue-num {
+      font-weight: 800;
+      color: var(--primary);
+      white-space: nowrap;
+      flex-shrink: 0;
+    }
+
+    #kb-clue-text { color: var(--text); }
+
+    .kb-row {
+      display: flex;
+      justify-content: center;
+      gap: 5px;
+      margin-bottom: 5px;
+    }
+    .kb-row:last-child { margin-bottom: 0; }
+
+    .kb-key {
+      background: white;
+      border: none;
+      border-radius: 5px;
+      height: 42px;
+      flex: 1;
+      max-width: 38px;
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text);
+      box-shadow: 0 2px 0 #999;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      user-select: none;
+      -webkit-user-select: none;
+      touch-action: manipulation;
+    }
+    .kb-key:active { background: #e0e0e0; box-shadow: none; transform: translateY(2px); }
+    .kb-key.kb-delete { background: #8e9196; color: white; max-width: 52px; flex: 1.4; font-size: 1.1rem; }
+
+    @media (max-width: 700px) {
+      #kb-bar.visible { display: block; }
+      #puzzle-view { padding-bottom: 230px; }
     }
 
     .clue-group h3 {
@@ -410,8 +523,9 @@
 
   <!-- PUZZLE LIST -->
   <div id="puzzle-list-view">
+    <p class="welcome-note">Hi Eric! 👋 Miruna made you this little collection of crosswords to solve together with the kids. New puzzles will appear here over time — have fun!</p>
     <div class="stats-row" id="stats-row"></div>
-    <div class="section-title">📚 All Puzzles</div>
+    <div class="section-title">📚 All Crosswords</div>
     <div class="puzzle-grid" id="puzzle-grid"></div>
   </div>
 
@@ -425,6 +539,11 @@
     <div class="puzzle-title-bar">
       <span class="big-emoji" id="pv-emoji"></span>
       <h2 id="pv-title"></h2>
+      <label class="theme-toggle" id="theme-toggle-wrap" title="Show theme words">
+        <input type="checkbox" id="theme-toggle" checked onchange="setThemeVisible(this.checked)" />
+        <span class="theme-toggle-track"></span>
+        <span class="theme-toggle-label">Theme</span>
+      </label>
     </div>
     <div class="progress-wrap">
       <div class="progress-label" id="progress-label">0% complete</div>
@@ -451,6 +570,17 @@
         </div>
       </div>
     </div>
+  </div>
+
+  <!-- MOBILE KEYBOARD -->
+  <div id="kb-bar">
+    <div id="kb-clue">
+      <span id="kb-clue-num"></span>
+      <span id="kb-clue-text">Tap a cell to start</span>
+    </div>
+    <div class="kb-row" id="kb-row-0"></div>
+    <div class="kb-row" id="kb-row-1"></div>
+    <div class="kb-row" id="kb-row-2"></div>
   </div>
 </div>
 
@@ -519,6 +649,7 @@ document.getElementById("pw-input").addEventListener("keydown", e => {
 // ── INIT ─────────────────────────────────────────────────────────
 async function initApp() {
   loadStorage();
+  initKeyboard();
   try {
     const res = await fetch("crosswords.json");
     puzzles = await res.json();
@@ -560,6 +691,7 @@ function renderList() {
 function showList() {
   document.getElementById("puzzle-list-view").style.display = "block";
   document.getElementById("puzzle-view").style.display = "none";
+  document.getElementById("kb-bar").classList.remove("visible");
   renderList();
 }
 
@@ -581,27 +713,45 @@ function openPuzzle(puzzle) {
   buildGrid(puzzle);
   buildClues(puzzle);
   updateProgress();
+  document.getElementById("theme-toggle").checked = true;
+  document.getElementById("crossword-grid").classList.remove("hide-theme");
+  document.getElementById("kb-bar").classList.add("visible");
+  updateKbClue();
 }
 
 function buildGrid(puzzle) {
   const rows = puzzle.grid.length;
   const cols = puzzle.grid[0].length;
 
-  // Build number map
+  // Build number map and theme cell set
   const numMap = {};
+  const themeSet = new Set();
   puzzle.words.forEach(w => {
     numMap[`${w.row},${w.col}`] = w.number;
+    if (w.theme) {
+      for (let i = 0; i < w.word.length; i++) {
+        const r = w.direction === "across" ? w.row : w.row + i;
+        const c = w.direction === "across" ? w.col + i : w.col;
+        themeSet.add(`${r},${c}`);
+      }
+    }
   });
 
   const container = document.getElementById("crossword-grid");
   container.style.gridTemplateColumns = `repeat(${cols}, auto)`;
   container.innerHTML = "";
 
+  const wrap = document.querySelector(".crossword-wrap");
+  const availWidth = wrap ? wrap.clientWidth : window.innerWidth - 48;
+  const cellSize = Math.min(52, Math.max(28, Math.floor((availWidth - 6 - 3 * (cols - 1)) / cols)));
+  container.style.setProperty("--cell-size", cellSize + "px");
+
   for (let r = 0; r < rows; r++) {
     for (let c = 0; c < cols; c++) {
       const cellDiv = document.createElement("div");
       const isBlack = puzzle.grid[r][c] === "#";
-      cellDiv.className = "cell" + (isBlack ? " black" : "");
+      const isTheme = !isBlack && themeSet.has(`${r},${c}`);
+      cellDiv.className = "cell" + (isBlack ? " black" : "") + (isTheme ? " theme-cell" : "");
       cellDiv.dataset.row = r;
       cellDiv.dataset.col = c;
 
@@ -619,6 +769,7 @@ function buildGrid(puzzle) {
         inp.autocorrect = "off";
         inp.autocapitalize = "characters";
         inp.spellcheck = false;
+        inp.inputMode = "none";
         const saved = (userAnswers[puzzle.id] || {})[`${r},${c}`] || "";
         inp.value = saved;
         inp.dataset.row = r;
@@ -686,7 +837,7 @@ function highlightActive() {
   // Highlight active cell
   if (activeCell) {
     const inp = getInput(activeCell.row, activeCell.col);
-    if (inp) { inp.classList.add("active-cell"); inp.focus(); }
+    if (inp) { inp.classList.add("active-cell"); inp.focus({ preventScroll: true }); }
   }
 }
 
@@ -694,7 +845,76 @@ function updateClueHighlight() {
   document.querySelectorAll(".clue-item").forEach(el => el.classList.remove("active"));
   if (!activeWord) return;
   const el = document.querySelector(`.clue-item[data-id="${activeWord.id}"]`);
-  if (el) { el.classList.add("active"); el.scrollIntoView({ block: "nearest" }); }
+  if (el) { el.classList.add("active"); }
+  updateKbClue();
+}
+
+function setThemeVisible(on) {
+  document.getElementById("crossword-grid").classList.toggle("hide-theme", !on);
+}
+
+function updateKbClue() {
+  const numEl = document.getElementById("kb-clue-num");
+  const textEl = document.getElementById("kb-clue-text");
+  if (!activeWord) {
+    numEl.textContent = "";
+    textEl.textContent = "Tap a cell to start";
+    return;
+  }
+  numEl.textContent = activeWord.number + (activeWord.direction === "across" ? "A" : "D");
+  textEl.textContent = activeWord.clue;
+}
+
+function typeChar(char) {
+  if (!activeCell || !currentPuzzle) return;
+  const { row, col } = activeCell;
+  const inp = getInput(row, col);
+  if (!inp) return;
+  inp.value = char;
+  inp.classList.remove("correct", "wrong");
+  userAnswers[currentPuzzle.id][`${row},${col}`] = char;
+  saveStorage();
+  updateProgress();
+  advanceCursor(row, col);
+  checkAutoComplete();
+}
+
+function deleteChar() {
+  if (!activeCell || !currentPuzzle) return;
+  const { row, col } = activeCell;
+  const inp = getInput(row, col);
+  if (!inp) return;
+  if (inp.value) {
+    inp.value = "";
+    inp.classList.remove("correct", "wrong");
+    userAnswers[currentPuzzle.id][`${row},${col}`] = "";
+    saveStorage();
+    updateProgress();
+  } else {
+    retreatCursor(row, col);
+  }
+}
+
+function initKeyboard() {
+  const rows = [
+    ["Q","W","E","R","T","Y","U","I","O","P"],
+    ["A","S","D","F","G","H","J","K","L"],
+    ["Z","X","C","V","B","N","M","⌫"]
+  ];
+  rows.forEach((keys, i) => {
+    const rowEl = document.getElementById(`kb-row-${i}`);
+    keys.forEach(char => {
+      const btn = document.createElement("button");
+      btn.className = "kb-key" + (char === "⌫" ? " kb-delete" : "");
+      btn.textContent = char;
+      btn.addEventListener("pointerdown", e => {
+        e.preventDefault();
+        if (char === "⌫") deleteChar();
+        else typeChar(char);
+      });
+      rowEl.appendChild(btn);
+    });
+  });
 }
 
 function onCellInput(e, r, c) {

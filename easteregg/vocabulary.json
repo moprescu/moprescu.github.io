@@ -1,64 +1,96 @@
 {
   "meta": {
-    "total": 2006,
+    "total": 2216,
     "by_tier": {
-      "1": 585,
-      "2": 1327,
-      "3": 94
+      "1": 602,
+      "2": 1533,
+      "3": 81
     },
     "by_theme": {
       "actions": 326,
-      "animals": 270,
+      "animals": 269,
       "common": 262,
       "describe": 220,
       "home": 172,
       "food": 171,
-      "nature": 141,
+      "nature": 154,
       "pokemon": 132,
-      "weather": 95,
-      "space": 80,
+      "weather": 110,
+      "space": 84,
       "places": 75,
-      "school": 58,
-      "time": 58,
+      "school": 70,
+      "time": 68,
+      "geography": 67,
+      "body": 65,
       "feelings": 58,
-      "body": 58,
       "play": 56,
       "vehicles": 55,
+      "music": 51,
       "jobs": 50,
+      "science": 50,
       "clothes": 48,
       "sports": 48,
-      "music": 40,
+      "money": 43,
+      "math": 42,
       "fantasy": 37,
+      "biology": 32,
+      "physics": 30,
       "ocean": 26,
       "colors": 22,
       "shapes": 21,
       "insects": 20,
+      "usa": 20,
+      "capitals": 20,
+      "environment": 20,
       "family": 19,
+      "history": 17,
       "names": 17,
       "holidays": 17,
       "numbers": 16,
-      "dinosaurs": 16
+      "dinosaurs": 16,
+      "language": 14,
+      "landmarks": 14,
+      "arts": 14
     },
     "by_length": {
       "2": 32,
-      "3": 243,
-      "4": 536,
-      "5": 494,
-      "6": 355,
-      "7": 189,
-      "8": 86,
-      "9": 43,
-      "10": 18,
-      "11": 6,
+      "3": 247,
+      "4": 566,
+      "5": 536,
+      "6": 410,
+      "7": 223,
+      "8": 104,
+      "9": 60,
+      "10": 24,
+      "11": 9,
       "12": 2,
-      "13": 2
+      "13": 2,
+      "14": 1
     },
     "tier_legend": {
       "1": "6yo likely solo",
       "2": "with dad's help",
       "3": "older / stretch"
     },
-    "notes": "Expanded set: includes verbs (present+past), adjectives, adverbs, abbreviations, short connectors, and proper names. Not all strictly kid-proof; tier 1 is safest for youngest solvers."
+    "educational_themes": {
+      "geography": 67,
+      "capitals": 20,
+      "landmarks": 14,
+      "usa": 20,
+      "biology": 32,
+      "space": 84,
+      "physics": 30,
+      "science": 50,
+      "environment": 20,
+      "math": 42,
+      "money": 43,
+      "history": 17,
+      "time": 68,
+      "music": 51,
+      "arts": 14,
+      "language": 14
+    },
+    "notes": "Includes educational categories (geography, capitals, landmarks, USA/flag, biology, space, physics, environment, math, money, history, time, arts, language) for learning-oriented puzzles."
   },
   "words": [
     {
@@ -152,9 +184,21 @@
       "tier": 1,
       "themes": [
         "actions",
+        "math",
+        "money",
         "numbers"
       ],
       "clue": "To put numbers together"
+    },
+    {
+      "word": "ADJECTIVE",
+      "length": 9,
+      "tier": 2,
+      "themes": [
+        "language",
+        "school"
+      ],
+      "clue": "A word that describes a noun"
     },
     {
       "word": "AFLOAT",
@@ -175,6 +219,15 @@
         "describe"
       ],
       "clue": "Scared"
+    },
+    {
+      "word": "AFRICA",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "The continent with the Sahara Desert"
     },
     {
       "word": "AFTER",
@@ -361,9 +414,20 @@
       "length": 8,
       "tier": 2,
       "themes": [
+        "language",
         "school"
       ],
       "clue": "All the letters from A to Z"
+    },
+    {
+      "word": "ALPS",
+      "length": 4,
+      "tier": 2,
+      "themes": [
+        "geography",
+        "landmarks"
+      ],
+      "clue": "A famous mountain range in Europe"
     },
     {
       "word": "ALREADY",
@@ -412,6 +476,16 @@
       "clue": "Wonderful"
     },
     {
+      "word": "AMAZON",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "geography",
+        "landmarks"
+      ],
+      "clue": "A huge rainforest and river in South America"
+    },
+    {
       "word": "AMBER",
       "length": 5,
       "tier": 2,
@@ -441,6 +515,16 @@
       "clue": "In the middle of"
     },
     {
+      "word": "AMPHIBIAN",
+      "length": 9,
+      "tier": 2,
+      "themes": [
+        "biology",
+        "nature"
+      ],
+      "clue": "An animal like a frog that lives in water and land"
+    },
+    {
       "word": "AN",
       "length": 2,
       "tier": 1,
@@ -465,7 +549,8 @@
       "length": 7,
       "tier": 2,
       "themes": [
-        "describe"
+        "describe",
+        "history"
       ],
       "clue": "Very, very old"
     },
@@ -479,6 +564,16 @@
       "clue": "A word that joins two things"
     },
     {
+      "word": "ANDES",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "geography",
+        "landmarks"
+      ],
+      "clue": "The long mountain range in South America"
+    },
+    {
       "word": "ANGER",
       "length": 5,
       "tier": 2,
@@ -486,6 +581,16 @@
         "feelings"
       ],
       "clue": "Being mad"
+    },
+    {
+      "word": "ANGLE",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "math",
+        "money"
+      ],
+      "clue": "The space between two lines that meet"
     },
     {
       "word": "ANGRY",
@@ -543,6 +648,15 @@
       "clue": "A tiny insect that lives in a colony"
     },
     {
+      "word": "ANTARCTICA",
+      "length": 10,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "The frozen continent at the South Pole"
+    },
+    {
       "word": "ANTELOPE",
       "length": 8,
       "tier": 3,
@@ -550,6 +664,15 @@
         "animals"
       ],
       "clue": "A fast horned grassland animal"
+    },
+    {
+      "word": "ANTHEM",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "usa"
+      ],
+      "clue": "A country's special song"
     },
     {
       "word": "ANTLER",
@@ -699,6 +822,15 @@
       "clue": "A curved shape"
     },
     {
+      "word": "ARCTIC",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "The icy ocean at the North Pole"
+    },
+    {
       "word": "ARE",
       "length": 3,
       "tier": 1,
@@ -790,6 +922,15 @@
       "clue": "The boy trainer with a red cap"
     },
     {
+      "word": "ASIA",
+      "length": 4,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "The biggest continent"
+    },
+    {
       "word": "ASIDE",
       "length": 5,
       "tier": 2,
@@ -819,18 +960,9 @@
       "clue": "Sleeping"
     },
     {
-      "word": "ASP",
-      "length": 3,
-      "tier": 2,
-      "themes": [
-        "animals"
-      ],
-      "clue": "A small snake"
-    },
-    {
       "word": "ASTEROID",
       "length": 8,
-      "tier": 3,
+      "tier": 2,
       "themes": [
         "space"
       ],
@@ -839,7 +971,7 @@
     {
       "word": "ASTRONAUT",
       "length": 9,
-      "tier": 3,
+      "tier": 2,
       "themes": [
         "jobs",
         "space"
@@ -866,6 +998,25 @@
       "clue": "Past tense of eat"
     },
     {
+      "word": "ATHENS",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "capitals",
+        "geography"
+      ],
+      "clue": "The capital of Greece, home of the Olympics"
+    },
+    {
+      "word": "ATLANTIC",
+      "length": 8,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "The ocean between America and Europe"
+    },
+    {
       "word": "ATLAS",
       "length": 5,
       "tier": 2,
@@ -887,8 +1038,10 @@
     {
       "word": "ATOM",
       "length": 4,
-      "tier": 3,
+      "tier": 2,
       "themes": [
+        "physics",
+        "science",
         "space"
       ],
       "clue": "The tiniest building block of stuff"
@@ -930,6 +1083,25 @@
         "space"
       ],
       "clue": "Colorful lights in the polar sky"
+    },
+    {
+      "word": "AUSTRALIA",
+      "length": 9,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "The continent that is also a country"
+    },
+    {
+      "word": "AUTHOR",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "language",
+        "school"
+      ],
+      "clue": "A person who writes books"
     },
     {
       "word": "AUTUMN",
@@ -997,6 +1169,15 @@
         "describe"
       ],
       "clue": "Really great"
+    },
+    {
+      "word": "AXIS",
+      "length": 4,
+      "tier": 2,
+      "themes": [
+        "space"
+      ],
+      "clue": "The line a planet spins around"
     },
     {
       "word": "BABY",
@@ -1128,6 +1309,16 @@
       "clue": "A shop for bread and cake"
     },
     {
+      "word": "BALANCE",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "physics",
+        "science"
+      ],
+      "clue": "To stay steady and not tip over"
+    },
+    {
       "word": "BALL",
       "length": 4,
       "tier": 1,
@@ -1173,6 +1364,15 @@
         "music"
       ],
       "clue": "A twangy string instrument"
+    },
+    {
+      "word": "BANK",
+      "length": 4,
+      "tier": 1,
+      "themes": [
+        "money"
+      ],
+      "clue": "A safe place to keep money"
     },
     {
       "word": "BANKER",
@@ -1325,6 +1525,16 @@
       "clue": "The room with a toilet and sink"
     },
     {
+      "word": "BATTERY",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "physics",
+        "science"
+      ],
+      "clue": "It stores electricity"
+    },
+    {
       "word": "BATTLE",
       "length": 6,
       "tier": 2,
@@ -1332,6 +1542,15 @@
         "pokemon"
       ],
       "clue": "When two Pokemon fight"
+    },
+    {
+      "word": "BAY",
+      "length": 3,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "A curved part of the coast"
     },
     {
       "word": "BE",
@@ -1521,6 +1740,16 @@
       "clue": "A pale tan color"
     },
     {
+      "word": "BEIJING",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "capitals",
+        "geography"
+      ],
+      "clue": "The capital of China"
+    },
+    {
       "word": "BELIEVE",
       "length": 7,
       "tier": 2,
@@ -1595,6 +1824,16 @@
       "clue": "A soft flat hat"
     },
     {
+      "word": "BERLIN",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "capitals",
+        "geography"
+      ],
+      "clue": "The capital of Germany"
+    },
+    {
       "word": "BERRY",
       "length": 5,
       "tier": 2,
@@ -1644,6 +1883,15 @@
         "vehicles"
       ],
       "clue": "You pedal it with two wheels"
+    },
+    {
+      "word": "BILL",
+      "length": 4,
+      "tier": 1,
+      "themes": [
+        "money"
+      ],
+      "clue": "Paper money, or what you owe"
     },
     {
       "word": "BIRD",
@@ -1766,6 +2014,16 @@
       "clue": "A toy you stack up"
     },
     {
+      "word": "BLOOD",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "biology",
+        "body"
+      ],
+      "clue": "The red liquid in your veins"
+    },
+    {
       "word": "BLOOM",
       "length": 5,
       "tier": 2,
@@ -1800,7 +2058,8 @@
       "length": 4,
       "tier": 1,
       "themes": [
-        "colors"
+        "colors",
+        "usa"
       ],
       "clue": "The color of the sky"
     },
@@ -1856,6 +2115,7 @@
       "length": 5,
       "tier": 2,
       "themes": [
+        "biology",
         "body"
       ],
       "clue": "The hard parts inside your body"
@@ -1986,6 +2246,7 @@
       "length": 5,
       "tier": 2,
       "themes": [
+        "biology",
         "body"
       ],
       "clue": "The thinking part in your head"
@@ -2018,6 +2279,15 @@
         "feelings"
       ],
       "clue": "Not afraid of danger"
+    },
+    {
+      "word": "BRAZIL",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "The biggest country in South America"
     },
     {
       "word": "BREAD",
@@ -2229,6 +2499,15 @@
         "weather"
       ],
       "clue": "A flower before it opens"
+    },
+    {
+      "word": "BUDGET",
+      "length": 6,
+      "tier": 1,
+      "themes": [
+        "money"
+      ],
+      "clue": "A plan for how to spend money"
     },
     {
       "word": "BUFFALO",
@@ -2519,6 +2798,16 @@
       "clue": "A small coffee shop"
     },
     {
+      "word": "CAIRO",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "capitals",
+        "geography"
+      ],
+      "clue": "The capital of Egypt"
+    },
+    {
       "word": "CAKE",
       "length": 4,
       "tier": 1,
@@ -2533,6 +2822,7 @@
       "length": 8,
       "tier": 2,
       "themes": [
+        "math",
         "school",
         "time"
       ],
@@ -2595,6 +2885,25 @@
       "clue": "A metal container"
     },
     {
+      "word": "CANADA",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "The country north of the USA"
+    },
+    {
+      "word": "CANBERRA",
+      "length": 8,
+      "tier": 2,
+      "themes": [
+        "capitals",
+        "geography"
+      ],
+      "clue": "The capital of Australia"
+    },
+    {
       "word": "CANDLE",
       "length": 6,
       "tier": 2,
@@ -2624,10 +2933,22 @@
       "clue": "A narrow boat you paddle"
     },
     {
+      "word": "CANVAS",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "arts",
+        "music"
+      ],
+      "clue": "The cloth a painter paints on"
+    },
+    {
       "word": "CANYON",
       "length": 6,
-      "tier": 3,
+      "tier": 2,
       "themes": [
+        "geography",
+        "landmarks",
         "nature"
       ],
       "clue": "A deep valley with steep walls"
@@ -2649,6 +2970,15 @@
         "clothes"
       ],
       "clue": "A hero wears this"
+    },
+    {
+      "word": "CAPITOL",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "usa"
+      ],
+      "clue": "The building where Congress meets"
     },
     {
       "word": "CAPSULE",
@@ -2770,6 +3100,15 @@
       "clue": "Cut a shape"
     },
     {
+      "word": "CASH",
+      "length": 4,
+      "tier": 1,
+      "themes": [
+        "money"
+      ],
+      "clue": "Money in bills and coins"
+    },
+    {
       "word": "CASHIER",
       "length": 7,
       "tier": 2,
@@ -2784,6 +3123,7 @@
       "tier": 2,
       "themes": [
         "fantasy",
+        "history",
         "places"
       ],
       "clue": "Where a king or queen lives"
@@ -2866,6 +3206,16 @@
       "clue": "A long crunchy green vegetable"
     },
     {
+      "word": "CELL",
+      "length": 4,
+      "tier": 2,
+      "themes": [
+        "biology",
+        "body"
+      ],
+      "clue": "The tiny building block of living things"
+    },
+    {
       "word": "CELLO",
       "length": 5,
       "tier": 2,
@@ -2873,6 +3223,15 @@
         "music"
       ],
       "clue": "A big violin you sit with"
+    },
+    {
+      "word": "CENT",
+      "length": 4,
+      "tier": 1,
+      "themes": [
+        "money"
+      ],
+      "clue": "A penny is one ___"
     },
     {
       "word": "CENTIPEDE",
@@ -2889,6 +3248,7 @@
       "length": 7,
       "tier": 2,
       "themes": [
+        "history",
         "school",
         "time"
       ],
@@ -2951,10 +3311,20 @@
       "clue": "The best trainer of all"
     },
     {
+      "word": "CHANGE",
+      "length": 6,
+      "tier": 1,
+      "themes": [
+        "money"
+      ],
+      "clue": "The money you get back after paying"
+    },
+    {
       "word": "CHAPTER",
       "length": 7,
       "tier": 2,
       "themes": [
+        "language",
         "school",
         "time"
       ],
@@ -3091,6 +3461,15 @@
       "clue": "Grind with teeth"
     },
     {
+      "word": "CHILE",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "A long, thin country in South America"
+    },
+    {
       "word": "CHILI",
       "length": 5,
       "tier": 2,
@@ -3134,6 +3513,15 @@
         "body"
       ],
       "clue": "Below your mouth"
+    },
+    {
+      "word": "CHINA",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "The country with the most people"
     },
     {
       "word": "CHIPMUNK",
@@ -3206,6 +3594,25 @@
         "shapes"
       ],
       "clue": "A perfectly round shape"
+    },
+    {
+      "word": "CIRCUIT",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "physics",
+        "science"
+      ],
+      "clue": "A loop that electricity flows around"
+    },
+    {
+      "word": "CITIZEN",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "history"
+      ],
+      "clue": "A member of a country"
     },
     {
       "word": "CITY",
@@ -3312,6 +3719,15 @@
       "clue": "A steep rock face"
     },
     {
+      "word": "CLIMATE",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "environment"
+      ],
+      "clue": "The usual weather of a place over years"
+    },
+    {
       "word": "CLIMB",
       "length": 5,
       "tier": 1,
@@ -3343,7 +3759,9 @@
       "length": 5,
       "tier": 2,
       "themes": [
-        "home"
+        "home",
+        "math",
+        "time"
       ],
       "clue": "It tells you the time"
     },
@@ -3371,6 +3789,7 @@
       "tier": 2,
       "themes": [
         "nature",
+        "science",
         "space",
         "weather"
       ],
@@ -3424,6 +3843,15 @@
         "weather"
       ],
       "clue": "Black rock you can burn"
+    },
+    {
+      "word": "COAST",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "Where the land meets the sea"
     },
     {
       "word": "COAT",
@@ -3480,6 +3908,15 @@
       "clue": "A kind of fish you can eat"
     },
     {
+      "word": "COIN",
+      "length": 4,
+      "tier": 1,
+      "themes": [
+        "money"
+      ],
+      "clue": "Round metal money"
+    },
+    {
       "word": "COLD",
       "length": 4,
       "tier": 1,
@@ -3515,6 +3952,16 @@
         "common"
       ],
       "clue": "Red, blue, green, etc."
+    },
+    {
+      "word": "COLOSSEUM",
+      "length": 9,
+      "tier": 2,
+      "themes": [
+        "geography",
+        "landmarks"
+      ],
+      "clue": "An ancient Roman arena"
     },
     {
       "word": "COMB",
@@ -3554,6 +4001,35 @@
       "clue": "A tool that points north"
     },
     {
+      "word": "COMPOST",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "environment"
+      ],
+      "clue": "Rotted food scraps that feed soil"
+    },
+    {
+      "word": "CONDENSE",
+      "length": 8,
+      "tier": 2,
+      "themes": [
+        "science",
+        "weather"
+      ],
+      "clue": "When vapor turns back into water"
+    },
+    {
+      "word": "CONDUCTOR",
+      "length": 9,
+      "tier": 2,
+      "themes": [
+        "arts",
+        "music"
+      ],
+      "clue": "The person who leads an orchestra"
+    },
+    {
       "word": "CONE",
       "length": 4,
       "tier": 2,
@@ -3572,9 +4048,18 @@
       "clue": "Tiny paper bits thrown to celebrate"
     },
     {
+      "word": "CONSERVE",
+      "length": 8,
+      "tier": 2,
+      "themes": [
+        "environment"
+      ],
+      "clue": "To protect and save nature"
+    },
+    {
       "word": "CONSTELLATION",
       "length": 13,
-      "tier": 3,
+      "tier": 2,
       "themes": [
         "space"
       ],
@@ -3634,6 +4119,7 @@
       "themes": [
         "animals",
         "colors",
+        "geography",
         "ocean"
       ],
       "clue": "Colorful rocky stuff fish live around"
@@ -3657,6 +4143,15 @@
         "places"
       ],
       "clue": "Where two streets meet"
+    },
+    {
+      "word": "COST",
+      "length": 4,
+      "tier": 1,
+      "themes": [
+        "money"
+      ],
+      "clue": "The price of something"
     },
     {
       "word": "COSTUME",
@@ -3700,7 +4195,9 @@
       "length": 5,
       "tier": 1,
       "themes": [
-        "actions"
+        "actions",
+        "math",
+        "money"
       ],
       "clue": "Say numbers in order"
     },
@@ -3943,6 +4440,7 @@
       "tier": 2,
       "themes": [
         "nature",
+        "science",
         "weather"
       ],
       "clue": "A clear sparkly mineral"
@@ -4176,6 +4674,7 @@
       "length": 6,
       "tier": 2,
       "themes": [
+        "math",
         "school",
         "time"
       ],
@@ -4218,6 +4717,16 @@
         "animals"
       ],
       "clue": "A forest animal with antlers"
+    },
+    {
+      "word": "DEGREE",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "math",
+        "time"
+      ],
+      "clue": "A unit for temperature or angles"
     },
     {
       "word": "DELICIOUS",
@@ -4334,6 +4843,16 @@
       "clue": "You roll these in games"
     },
     {
+      "word": "DICTIONARY",
+      "length": 10,
+      "tier": 2,
+      "themes": [
+        "language",
+        "school"
+      ],
+      "clue": "A book of word meanings"
+    },
+    {
       "word": "DID",
       "length": 3,
       "tier": 1,
@@ -4352,6 +4871,16 @@
       "clue": "Make a hole in the ground"
     },
     {
+      "word": "DIGIT",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "math",
+        "money"
+      ],
+      "clue": "A single number from 0 to 9"
+    },
+    {
       "word": "DIGLETT",
       "length": 7,
       "tier": 2,
@@ -4360,6 +4889,15 @@
         "pokemon"
       ],
       "clue": "A Pokemon that pokes its head out of the ground"
+    },
+    {
+      "word": "DIME",
+      "length": 4,
+      "tier": 1,
+      "themes": [
+        "money"
+      ],
+      "clue": "A ten-cent coin"
     },
     {
       "word": "DINER",
@@ -4472,6 +5010,16 @@
       "clue": "Jump in headfirst"
     },
     {
+      "word": "DIVIDE",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "math",
+        "money"
+      ],
+      "clue": "To split into equal groups"
+    },
+    {
       "word": "DO",
       "length": 2,
       "tier": 1,
@@ -4537,6 +5085,16 @@
       "clue": "A toy shaped like a person"
     },
     {
+      "word": "DOLLAR",
+      "length": 6,
+      "tier": 1,
+      "themes": [
+        "money",
+        "usa"
+      ],
+      "clue": "The money of the United States"
+    },
+    {
       "word": "DOLPHIN",
       "length": 7,
       "tier": 3,
@@ -4592,6 +5150,16 @@
       "clue": "A tiny round mark"
     },
     {
+      "word": "DOUBLE",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "math",
+        "money"
+      ],
+      "clue": "Two times as much"
+    },
+    {
       "word": "DOUGH",
       "length": 5,
       "tier": 2,
@@ -4623,6 +5191,8 @@
       "length": 5,
       "tier": 2,
       "themes": [
+        "math",
+        "money",
         "numbers"
       ],
       "clue": "Another word for twelve"
@@ -4790,6 +5360,7 @@
       "length": 7,
       "tier": 2,
       "themes": [
+        "environment",
         "nature",
         "weather"
       ],
@@ -4833,6 +5404,16 @@
         "feelings"
       ],
       "clue": "Not wet"
+    },
+    {
+      "word": "DUBLIN",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "capitals",
+        "geography"
+      ],
+      "clue": "The capital of Ireland"
     },
     {
       "word": "DUCK",
@@ -4962,7 +5543,8 @@
       "length": 5,
       "tier": 2,
       "themes": [
-        "animals"
+        "animals",
+        "usa"
       ],
       "clue": "A powerful bird with great eyesight"
     },
@@ -4987,9 +5569,10 @@
     {
       "word": "EARN",
       "length": 4,
-      "tier": 2,
+      "tier": 1,
       "themes": [
-        "actions"
+        "actions",
+        "money"
       ],
       "clue": "Get by working"
     },
@@ -5002,6 +5585,16 @@
         "space"
       ],
       "clue": "The planet we all live on"
+    },
+    {
+      "word": "EARTHQUAKE",
+      "length": 10,
+      "tier": 2,
+      "themes": [
+        "science",
+        "weather"
+      ],
+      "clue": "A shaking of the ground"
     },
     {
       "word": "EASILY",
@@ -5044,11 +5637,20 @@
     {
       "word": "ECLIPSE",
       "length": 7,
-      "tier": 3,
+      "tier": 2,
       "themes": [
         "space"
       ],
       "clue": "When the moon hides the sun"
+    },
+    {
+      "word": "ECOSYSTEM",
+      "length": 9,
+      "tier": 2,
+      "themes": [
+        "environment"
+      ],
+      "clue": "All the living things in one place"
     },
     {
       "word": "EDGE",
@@ -5090,6 +5692,15 @@
       "clue": "You crack it to cook breakfast"
     },
     {
+      "word": "EGYPT",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "The country with the pyramids"
+    },
+    {
       "word": "EIGHT",
       "length": 5,
       "tier": 2,
@@ -5116,6 +5727,25 @@
         "body"
       ],
       "clue": "The joint in the middle of your arm"
+    },
+    {
+      "word": "ELECTION",
+      "length": 8,
+      "tier": 2,
+      "themes": [
+        "history"
+      ],
+      "clue": "When people vote to choose a leader"
+    },
+    {
+      "word": "ELECTRICITY",
+      "length": 11,
+      "tier": 2,
+      "themes": [
+        "physics",
+        "science"
+      ],
+      "clue": "The power that runs your TV and lights"
     },
     {
       "word": "ELEVEN",
@@ -5181,6 +5811,15 @@
       "clue": "A common girl's name"
     },
     {
+      "word": "EMPIRE",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "history"
+      ],
+      "clue": "A group of lands ruled by one leader"
+    },
+    {
       "word": "EMPTY",
       "length": 5,
       "tier": 1,
@@ -5218,10 +5857,23 @@
       "clue": "Finish"
     },
     {
+      "word": "ENERGY",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "environment",
+        "physics",
+        "science"
+      ],
+      "clue": "The power to do work or move"
+    },
+    {
       "word": "ENGINE",
       "length": 6,
       "tier": 2,
       "themes": [
+        "physics",
+        "science",
         "vehicles"
       ],
       "clue": "The part that makes a car go"
@@ -5252,6 +5904,26 @@
         "actions"
       ],
       "clue": "Go in"
+    },
+    {
+      "word": "EQUAL",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "math",
+        "money"
+      ],
+      "clue": "The same amount as"
+    },
+    {
+      "word": "EQUATOR",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "science",
+        "weather"
+      ],
+      "clue": "The imaginary line around Earth's middle"
     },
     {
       "word": "ER",
@@ -5290,6 +5962,15 @@
       "clue": "It rubs out pencil marks"
     },
     {
+      "word": "EROSION",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "environment"
+      ],
+      "clue": "When wind or water wears land away"
+    },
+    {
       "word": "ESCAPE",
       "length": 6,
       "tier": 2,
@@ -5299,11 +5980,32 @@
       "clue": "Get away"
     },
     {
+      "word": "EUROPE",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "The continent where France and Italy are"
+    },
+    {
+      "word": "EVAPORATE",
+      "length": 9,
+      "tier": 2,
+      "themes": [
+        "science",
+        "weather"
+      ],
+      "clue": "When water turns into vapor"
+    },
+    {
       "word": "EVEN",
       "length": 4,
       "tier": 1,
       "themes": [
-        "common"
+        "common",
+        "math",
+        "money"
       ],
       "clue": "Flat and level, or also"
     },
@@ -5315,6 +6017,16 @@
         "common"
       ],
       "clue": "At any time"
+    },
+    {
+      "word": "EVEREST",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "geography",
+        "landmarks"
+      ],
+      "clue": "The tallest mountain on Earth"
     },
     {
       "word": "EVERY",
@@ -5389,6 +6101,26 @@
         "actions"
       ],
       "clue": "Go look at new places"
+    },
+    {
+      "word": "EXPLORER",
+      "length": 8,
+      "tier": 2,
+      "themes": [
+        "history"
+      ],
+      "clue": "A person who travels to discover new places"
+    },
+    {
+      "word": "EXTINCT",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "biology",
+        "environment",
+        "nature"
+      ],
+      "clue": "No longer living anywhere, like dinosaurs"
     },
     {
       "word": "EXTRA",
@@ -5860,7 +6592,8 @@
       "length": 4,
       "tier": 1,
       "themes": [
-        "holidays"
+        "holidays",
+        "usa"
       ],
       "clue": "A cloth symbol of a country"
     },
@@ -5918,6 +6651,8 @@
       "tier": 2,
       "themes": [
         "actions",
+        "physics",
+        "science",
         "space"
       ],
       "clue": "Stay on top of water"
@@ -6060,7 +6795,9 @@
       "length": 4,
       "tier": 1,
       "themes": [
-        "body"
+        "body",
+        "math",
+        "time"
       ],
       "clue": "You stand on these"
     },
@@ -6083,10 +6820,21 @@
       "clue": "Meant to be given to"
     },
     {
+      "word": "FORCE",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "physics",
+        "science"
+      ],
+      "clue": "A push or a pull"
+    },
+    {
       "word": "FOREST",
       "length": 6,
       "tier": 2,
       "themes": [
+        "environment",
         "nature",
         "weather"
       ],
@@ -6124,7 +6872,9 @@
       "length": 6,
       "tier": 2,
       "themes": [
-        "dinosaurs"
+        "biology",
+        "dinosaurs",
+        "nature"
       ],
       "clue": "Old bones turned to stone"
     },
@@ -6156,6 +6906,15 @@
       "clue": "A clever orange animal with a bushy tail"
     },
     {
+      "word": "FRANCE",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "The country with the Eiffel Tower"
+    },
+    {
       "word": "FREE",
       "length": 4,
       "tier": 1,
@@ -6164,6 +6923,15 @@
         "describe"
       ],
       "clue": "Costs no money"
+    },
+    {
+      "word": "FREEDOM",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "usa"
+      ],
+      "clue": "Something the US flag stands for"
     },
     {
       "word": "FREEZER",
@@ -6184,6 +6952,16 @@
         "describe"
       ],
       "clue": "Newly made"
+    },
+    {
+      "word": "FRICTION",
+      "length": 8,
+      "tier": 2,
+      "themes": [
+        "physics",
+        "science"
+      ],
+      "clue": "The force that slows sliding things"
     },
     {
       "word": "FRIDAY",
@@ -6386,6 +7164,16 @@
       "clue": "A strong-smelling bulb"
     },
     {
+      "word": "GAS",
+      "length": 3,
+      "tier": 2,
+      "themes": [
+        "physics",
+        "science"
+      ],
+      "clue": "A state of matter, like air"
+    },
+    {
       "word": "GASP",
       "length": 4,
       "tier": 2,
@@ -6499,6 +7287,16 @@
       "clue": "To receive"
     },
     {
+      "word": "GEYSER",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "geography",
+        "landmarks"
+      ],
+      "clue": "A spring that shoots hot water into the air"
+    },
+    {
       "word": "GHOST",
       "length": 5,
       "tier": 2,
@@ -6578,9 +7376,11 @@
     {
       "word": "GLACIER",
       "length": 7,
-      "tier": 3,
+      "tier": 2,
       "themes": [
-        "nature"
+        "nature",
+        "science",
+        "weather"
       ],
       "clue": "A huge sheet of moving ice"
     },
@@ -6830,6 +7630,16 @@
       "clue": "Seeds like wheat or rice"
     },
     {
+      "word": "GRAM",
+      "length": 4,
+      "tier": 2,
+      "themes": [
+        "math",
+        "time"
+      ],
+      "clue": "A small unit of weight"
+    },
+    {
       "word": "GRANDMA",
       "length": 7,
       "tier": 2,
@@ -6857,6 +7667,16 @@
       "clue": "A small round fruit on a vine"
     },
     {
+      "word": "GRAPH",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "math",
+        "money"
+      ],
+      "clue": "A picture that shows numbers"
+    },
+    {
       "word": "GRASS",
       "length": 5,
       "tier": 2,
@@ -6880,7 +7700,7 @@
     {
       "word": "GRAVITY",
       "length": 7,
-      "tier": 3,
+      "tier": 2,
       "themes": [
         "space"
       ],
@@ -6903,6 +7723,15 @@
         "colors"
       ],
       "clue": "A color between black and white"
+    },
+    {
+      "word": "GREECE",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "The country where the Olympics began"
     },
     {
       "word": "GREEN",
@@ -7035,6 +7864,15 @@
       "clue": "An instrument with strings you strum"
     },
     {
+      "word": "GULF",
+      "length": 4,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "A large bay where the sea reaches into land"
+    },
+    {
       "word": "GUM",
       "length": 3,
       "tier": 1,
@@ -7085,9 +7923,10 @@
     {
       "word": "HABITAT",
       "length": 7,
-      "tier": 3,
+      "tier": 2,
       "themes": [
         "animals",
+        "biology",
         "nature"
       ],
       "clue": "The natural home of an animal"
@@ -7115,7 +7954,9 @@
       "length": 4,
       "tier": 2,
       "themes": [
-        "common"
+        "common",
+        "math",
+        "money"
       ],
       "clue": "One of two equal parts"
     },
@@ -7271,6 +8112,16 @@
       "clue": "Strongly dislike"
     },
     {
+      "word": "HAVANA",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "capitals",
+        "geography"
+      ],
+      "clue": "The capital of Cuba"
+    },
+    {
       "word": "HAWK",
       "length": 4,
       "tier": 2,
@@ -7359,10 +8210,21 @@
       "length": 5,
       "tier": 2,
       "themes": [
+        "biology",
         "body",
         "shapes"
       ],
       "clue": "It beats inside your chest"
+    },
+    {
+      "word": "HEAT",
+      "length": 4,
+      "tier": 2,
+      "themes": [
+        "physics",
+        "science"
+      ],
+      "clue": "A form of energy that makes things warm"
     },
     {
       "word": "HEAVY",
@@ -7575,6 +8437,15 @@
         "common"
       ],
       "clue": "Belonging to him"
+    },
+    {
+      "word": "HISTORY",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "history"
+      ],
+      "clue": "The study of the past"
     },
     {
       "word": "HIVE",
@@ -7798,6 +8669,7 @@
       "length": 4,
       "tier": 1,
       "themes": [
+        "math",
         "time"
       ],
       "clue": "Sixty minutes"
@@ -7866,6 +8738,16 @@
         "sports"
       ],
       "clue": "A bar runners jump over"
+    },
+    {
+      "word": "HURRICANE",
+      "length": 9,
+      "tier": 2,
+      "themes": [
+        "science",
+        "weather"
+      ],
+      "clue": "A huge spinning ocean storm"
     },
     {
       "word": "HYENA",
@@ -7971,6 +8853,34 @@
       "clue": "Inside"
     },
     {
+      "word": "INCH",
+      "length": 4,
+      "tier": 2,
+      "themes": [
+        "math",
+        "time"
+      ],
+      "clue": "A small unit of length"
+    },
+    {
+      "word": "INDIA",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "A large country in South Asia"
+    },
+    {
+      "word": "INDIAN",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "The ocean south of Asia"
+    },
+    {
       "word": "INDOORS",
       "length": 7,
       "tier": 2,
@@ -7987,6 +8897,16 @@
         "school"
       ],
       "clue": "The liquid inside a pen"
+    },
+    {
+      "word": "INSECT",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "biology",
+        "nature"
+      ],
+      "clue": "A small creature with six legs"
     },
     {
       "word": "INSIDE",
@@ -8024,6 +8944,15 @@
         "actions"
       ],
       "clue": "Make something new"
+    },
+    {
+      "word": "INVENTION",
+      "length": 9,
+      "tier": 2,
+      "themes": [
+        "history"
+      ],
+      "clue": "Something new that someone creates"
     },
     {
       "word": "INVISIBLE",
@@ -8070,6 +8999,15 @@
         "common"
       ],
       "clue": "That thing"
+    },
+    {
+      "word": "ITALY",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "The boot-shaped country"
     },
     {
       "word": "ITS",
@@ -8153,6 +9091,15 @@
         "food"
       ],
       "clue": "Sweet fruit spread for toast"
+    },
+    {
+      "word": "JAPAN",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "An island country in Asia"
     },
     {
       "word": "JAR",
@@ -8435,6 +9382,15 @@
       "clue": "Hold onto"
     },
     {
+      "word": "KENYA",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "An African country known for safaris"
+    },
+    {
       "word": "KEPT",
       "length": 4,
       "tier": 2,
@@ -8496,6 +9452,7 @@
       "length": 4,
       "tier": 2,
       "themes": [
+        "history",
         "jobs"
       ],
       "clue": "A male royal ruler"
@@ -8596,6 +9553,7 @@
       "tier": 2,
       "themes": [
         "fantasy",
+        "history",
         "jobs"
       ],
       "clue": "A soldier in shining armor"
@@ -8692,6 +9650,15 @@
         "insects"
       ],
       "clue": "A red bug with black spots"
+    },
+    {
+      "word": "LAGOON",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "A shallow pool near the sea"
     },
     {
       "word": "LAID",
@@ -8799,6 +9766,16 @@
       "clue": "A bird that sings at dawn"
     },
     {
+      "word": "LARVA",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "biology",
+        "nature"
+      ],
+      "clue": "A young insect, like a caterpillar"
+    },
+    {
       "word": "LASH",
       "length": 4,
       "tier": 2,
@@ -8847,6 +9824,25 @@
       "clue": "What you do at something funny"
     },
     {
+      "word": "LAVA",
+      "length": 4,
+      "tier": 2,
+      "themes": [
+        "science",
+        "weather"
+      ],
+      "clue": "Melted rock from a volcano"
+    },
+    {
+      "word": "LAW",
+      "length": 3,
+      "tier": 2,
+      "themes": [
+        "history"
+      ],
+      "clue": "A rule everyone must follow"
+    },
+    {
       "word": "LAWYER",
       "length": 6,
       "tier": 2,
@@ -8887,6 +9883,7 @@
       "length": 4,
       "tier": 1,
       "themes": [
+        "biology",
         "food",
         "home",
         "nature",
@@ -9085,6 +10082,16 @@
       "clue": "A Pokemon gets stronger when this goes up"
     },
     {
+      "word": "LEVER",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "physics",
+        "science"
+      ],
+      "clue": "A simple machine, like a seesaw"
+    },
+    {
       "word": "LIAM",
       "length": 4,
       "tier": 2,
@@ -9092,6 +10099,15 @@
         "names"
       ],
       "clue": "A common boy's name"
+    },
+    {
+      "word": "LIBERTY",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "usa"
+      ],
+      "clue": "The Statue of ___ stands in New York"
     },
     {
       "word": "LIBRARY",
@@ -9134,9 +10150,21 @@
       "length": 5,
       "tier": 1,
       "themes": [
-        "describe"
+        "describe",
+        "physics",
+        "science"
       ],
       "clue": "Not heavy, or full of light"
+    },
+    {
+      "word": "LIGHTNING",
+      "length": 9,
+      "tier": 2,
+      "themes": [
+        "science",
+        "weather"
+      ],
+      "clue": "A bright electric flash in a storm"
     },
     {
       "word": "LIKE",
@@ -9157,6 +10185,16 @@
       "clue": "A girl's name and a flower"
     },
     {
+      "word": "LIMA",
+      "length": 4,
+      "tier": 2,
+      "themes": [
+        "capitals",
+        "geography"
+      ],
+      "clue": "The capital of Peru"
+    },
+    {
       "word": "LIME",
       "length": 4,
       "tier": 1,
@@ -9165,6 +10203,15 @@
         "food"
       ],
       "clue": "A small green sour fruit"
+    },
+    {
+      "word": "LINCOLN",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "usa"
+      ],
+      "clue": "The President on the penny"
     },
     {
       "word": "LINE",
@@ -9194,6 +10241,16 @@
       "clue": "Part of your mouth"
     },
     {
+      "word": "LIQUID",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "physics",
+        "science"
+      ],
+      "clue": "A state of matter that flows, like water"
+    },
+    {
       "word": "LIST",
       "length": 4,
       "tier": 2,
@@ -9210,6 +10267,25 @@
         "actions"
       ],
       "clue": "Pay attention with your ears"
+    },
+    {
+      "word": "LITER",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "math",
+        "time"
+      ],
+      "clue": "A unit for measuring liquids"
+    },
+    {
+      "word": "LITTER",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "environment"
+      ],
+      "clue": "Trash dropped on the ground"
     },
     {
       "word": "LIVER",
@@ -9296,6 +10372,16 @@
       "clue": "Candy on a stick"
     },
     {
+      "word": "LONDON",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "capitals",
+        "geography"
+      ],
+      "clue": "The capital of England"
+    },
+    {
       "word": "LONELY",
       "length": 6,
       "tier": 2,
@@ -9378,6 +10464,16 @@
       "clue": "With lots of noise"
     },
     {
+      "word": "LOUVRE",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "geography",
+        "landmarks"
+      ],
+      "clue": "A famous art museum in Paris"
+    },
+    {
       "word": "LOVE",
       "length": 4,
       "tier": 1,
@@ -9434,6 +10530,16 @@
       "clue": "You breathe with these"
     },
     {
+      "word": "LUNGS",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "biology",
+        "body"
+      ],
+      "clue": "You breathe with these"
+    },
+    {
       "word": "LYRIC",
       "length": 5,
       "tier": 2,
@@ -9472,6 +10578,16 @@
       "clue": "Past tense of make"
     },
     {
+      "word": "MADRID",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "capitals",
+        "geography"
+      ],
+      "clue": "The capital of Spain"
+    },
+    {
       "word": "MAGIC",
       "length": 5,
       "tier": 2,
@@ -9492,6 +10608,16 @@
       "clue": "A weak red fish Pokemon that just flops"
     },
     {
+      "word": "MAGMA",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "science",
+        "weather"
+      ],
+      "clue": "Melted rock under the ground"
+    },
+    {
       "word": "MAGNEMITE",
       "length": 9,
       "tier": 2,
@@ -9500,6 +10626,16 @@
         "pokemon"
       ],
       "clue": "A floating magnet Pokemon"
+    },
+    {
+      "word": "MAGNET",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "physics",
+        "science"
+      ],
+      "clue": "It pulls iron toward it"
     },
     {
       "word": "MAGPIE",
@@ -9545,6 +10681,16 @@
         "actions"
       ],
       "clue": "Create or build"
+    },
+    {
+      "word": "MAMMAL",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "biology",
+        "nature"
+      ],
+      "clue": "An animal that feeds milk to its babies"
     },
     {
       "word": "MAN",
@@ -9671,6 +10817,16 @@
       "clue": "Wet, soggy land"
     },
     {
+      "word": "MASS",
+      "length": 4,
+      "tier": 2,
+      "themes": [
+        "physics",
+        "science"
+      ],
+      "clue": "How much stuff something is made of"
+    },
+    {
       "word": "MATCH",
       "length": 5,
       "tier": 2,
@@ -9689,6 +10845,16 @@
         "school"
       ],
       "clue": "Numbers and counting"
+    },
+    {
+      "word": "MATTER",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "physics",
+        "science"
+      ],
+      "clue": "Anything that takes up space"
     },
     {
       "word": "MATTRESS",
@@ -9734,6 +10900,7 @@
       "length": 5,
       "tier": 2,
       "themes": [
+        "history",
         "jobs"
       ],
       "clue": "Leads a town"
@@ -9780,7 +10947,9 @@
       "length": 7,
       "tier": 2,
       "themes": [
-        "actions"
+        "actions",
+        "math",
+        "money"
       ],
       "clue": "Find the size"
     },
@@ -9825,6 +10994,7 @@
       "length": 6,
       "tier": 2,
       "themes": [
+        "arts",
         "music"
       ],
       "clue": "The tune of a song"
@@ -9914,6 +11084,16 @@
       "clue": "A shooting star streaking by"
     },
     {
+      "word": "METER",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "math",
+        "time"
+      ],
+      "clue": "A unit of length, about a big step"
+    },
+    {
       "word": "MEW",
       "length": 3,
       "tier": 2,
@@ -9932,6 +11112,15 @@
         "pokemon"
       ],
       "clue": "A powerful Pokemon made in a lab"
+    },
+    {
+      "word": "MEXICO",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "The country south of the USA"
     },
     {
       "word": "MIA",
@@ -9961,6 +11150,16 @@
       "clue": "May possibly"
     },
     {
+      "word": "MILE",
+      "length": 4,
+      "tier": 2,
+      "themes": [
+        "math",
+        "time"
+      ],
+      "clue": "A long unit of distance"
+    },
+    {
       "word": "MILK",
       "length": 4,
       "tier": 1,
@@ -9988,6 +11187,16 @@
       "clue": "Digs for coal or gold"
     },
     {
+      "word": "MINERAL",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "science",
+        "weather"
+      ],
+      "clue": "A natural solid found in the ground"
+    },
+    {
       "word": "MINNOW",
       "length": 6,
       "tier": 2,
@@ -10006,10 +11215,21 @@
       "clue": "A cool green herb"
     },
     {
+      "word": "MINUS",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "math",
+        "money"
+      ],
+      "clue": "The sign for subtracting"
+    },
+    {
       "word": "MINUTE",
       "length": 6,
       "tier": 2,
       "themes": [
+        "math",
         "time"
       ],
       "clue": "Sixty seconds"
@@ -10113,6 +11333,16 @@
         "animals"
       ],
       "clue": "An animal that digs underground"
+    },
+    {
+      "word": "MOLECULE",
+      "length": 8,
+      "tier": 2,
+      "themes": [
+        "physics",
+        "science"
+      ],
+      "clue": "Two or more atoms joined together"
     },
     {
       "word": "MOLTRES",
@@ -10243,6 +11473,16 @@
       "clue": "The early part of the day"
     },
     {
+      "word": "MOSCOW",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "capitals",
+        "geography"
+      ],
+      "clue": "The capital of Russia"
+    },
+    {
       "word": "MOSQUITO",
       "length": 8,
       "tier": 2,
@@ -10290,6 +11530,16 @@
         "insects"
       ],
       "clue": "A bug like a butterfly that loves light"
+    },
+    {
+      "word": "MOTION",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "physics",
+        "science"
+      ],
+      "clue": "When something moves"
     },
     {
       "word": "MOTORCYCLE",
@@ -10402,10 +11652,21 @@
       "clue": "A cross between a horse and a donkey"
     },
     {
+      "word": "MULTIPLY",
+      "length": 8,
+      "tier": 2,
+      "themes": [
+        "math",
+        "money"
+      ],
+      "clue": "To add a number to itself many times"
+    },
+    {
       "word": "MUSCLE",
       "length": 6,
       "tier": 2,
       "themes": [
+        "biology",
         "body"
       ],
       "clue": "It helps you move"
@@ -10415,6 +11676,7 @@
       "length": 6,
       "tier": 2,
       "themes": [
+        "history",
         "places"
       ],
       "clue": "A place full of cool old things"
@@ -10446,6 +11708,16 @@
         "home"
       ],
       "clue": "A hammer drives it in"
+    },
+    {
+      "word": "NAIROBI",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "capitals",
+        "geography"
+      ],
+      "clue": "The capital of Kenya"
     },
     {
       "word": "NAME",
@@ -10540,6 +11812,16 @@
       "clue": "Connects your head to your body"
     },
     {
+      "word": "NECTAR",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "biology",
+        "nature"
+      ],
+      "clue": "The sweet juice bees take from flowers"
+    },
+    {
       "word": "NEED",
       "length": 4,
       "tier": 1,
@@ -10571,6 +11853,7 @@
       "length": 5,
       "tier": 2,
       "themes": [
+        "biology",
         "body"
       ],
       "clue": "Carries feelings to the brain"
@@ -10654,6 +11937,15 @@
       "clue": "Pleasant and friendly"
     },
     {
+      "word": "NICKEL",
+      "length": 6,
+      "tier": 1,
+      "themes": [
+        "money"
+      ],
+      "clue": "A five-cent coin"
+    },
+    {
       "word": "NIDORAN",
       "length": 7,
       "tier": 2,
@@ -10671,6 +11963,16 @@
         "time"
       ],
       "clue": "The dark part of the day"
+    },
+    {
+      "word": "NILE",
+      "length": 4,
+      "tier": 2,
+      "themes": [
+        "geography",
+        "landmarks"
+      ],
+      "clue": "The longest river in the world"
     },
     {
       "word": "NINE",
@@ -10778,6 +12080,7 @@
       "length": 4,
       "tier": 2,
       "themes": [
+        "arts",
         "music",
         "school",
         "time"
@@ -10801,6 +12104,16 @@
         "actions"
       ],
       "clue": "See and pay attention"
+    },
+    {
+      "word": "NOUN",
+      "length": 4,
+      "tier": 2,
+      "themes": [
+        "language",
+        "school"
+      ],
+      "clue": "A word for a person, place, or thing"
     },
     {
       "word": "NOVEL",
@@ -10836,6 +12149,8 @@
       "length": 6,
       "tier": 2,
       "themes": [
+        "math",
+        "money",
         "school"
       ],
       "clue": "Used for counting"
@@ -10900,6 +12215,7 @@
       "length": 5,
       "tier": 2,
       "themes": [
+        "geography",
         "nature",
         "space"
       ],
@@ -10928,7 +12244,9 @@
       "length": 3,
       "tier": 1,
       "themes": [
-        "describe"
+        "describe",
+        "math",
+        "money"
       ],
       "clue": "Strange"
     },
@@ -11135,6 +12453,16 @@
       "clue": "Where fruit trees grow"
     },
     {
+      "word": "ORCHESTRA",
+      "length": 9,
+      "tier": 2,
+      "themes": [
+        "arts",
+        "music"
+      ],
+      "clue": "A big group of musicians"
+    },
+    {
       "word": "ORE",
       "length": 3,
       "tier": 2,
@@ -11142,6 +12470,26 @@
         "nature"
       ],
       "clue": "Rock that metal comes from"
+    },
+    {
+      "word": "ORGAN",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "biology",
+        "body"
+      ],
+      "clue": "A body part with a job, like the heart"
+    },
+    {
+      "word": "OSLO",
+      "length": 4,
+      "tier": 2,
+      "themes": [
+        "capitals",
+        "geography"
+      ],
+      "clue": "The capital of Norway"
     },
     {
       "word": "OSTRICH",
@@ -11160,6 +12508,16 @@
         "common"
       ],
       "clue": "Not this one"
+    },
+    {
+      "word": "OTTAWA",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "capitals",
+        "geography"
+      ],
+      "clue": "The capital of Canada"
     },
     {
       "word": "OTTER",
@@ -11267,6 +12625,8 @@
       "length": 6,
       "tier": 2,
       "themes": [
+        "biology",
+        "nature",
         "space"
       ],
       "clue": "The air astronauts breathe"
@@ -11280,6 +12640,24 @@
         "ocean"
       ],
       "clue": "A shellfish that can make a pearl"
+    },
+    {
+      "word": "OZONE",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "environment"
+      ],
+      "clue": "A layer of air that blocks harmful sun rays"
+    },
+    {
+      "word": "PACIFIC",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "The biggest ocean on Earth"
     },
     {
       "word": "PACK",
@@ -11341,7 +12719,9 @@
       "length": 4,
       "tier": 2,
       "themes": [
-        "common"
+        "common",
+        "math",
+        "money"
       ],
       "clue": "A set of two"
     },
@@ -11372,6 +12752,16 @@
         "places"
       ],
       "clue": "A grand royal home"
+    },
+    {
+      "word": "PALETTE",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "arts",
+        "music"
+      ],
+      "clue": "A board for mixing paint colors"
     },
     {
       "word": "PALM",
@@ -11466,6 +12856,16 @@
       "clue": "A march down the street to celebrate"
     },
     {
+      "word": "PARAGRAPH",
+      "length": 9,
+      "tier": 2,
+      "themes": [
+        "language",
+        "school"
+      ],
+      "clue": "A group of sentences about one idea"
+    },
+    {
       "word": "PARAS",
       "length": 5,
       "tier": 2,
@@ -11483,6 +12883,16 @@
         "family"
       ],
       "clue": "A mom or a dad"
+    },
+    {
+      "word": "PARIS",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "capitals",
+        "geography"
+      ],
+      "clue": "The capital of France"
     },
     {
       "word": "PARK",
@@ -11751,6 +13161,15 @@
       "clue": "A bird that swims but cannot fly"
     },
     {
+      "word": "PENNY",
+      "length": 5,
+      "tier": 1,
+      "themes": [
+        "money"
+      ],
+      "clue": "A one-cent coin"
+    },
+    {
       "word": "PEPPER",
       "length": 6,
       "tier": 2,
@@ -11758,6 +13177,16 @@
         "food"
       ],
       "clue": "A vegetable that can be hot or sweet"
+    },
+    {
+      "word": "PERCENT",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "math",
+        "money"
+      ],
+      "clue": "A part out of one hundred"
     },
     {
       "word": "PERFECT",
@@ -11788,6 +13217,15 @@
       "clue": "An orange fruit you may not know"
     },
     {
+      "word": "PERU",
+      "length": 4,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "The country with Machu Picchu"
+    },
+    {
       "word": "PET",
       "length": 3,
       "tier": 1,
@@ -11802,6 +13240,7 @@
       "length": 5,
       "tier": 2,
       "themes": [
+        "biology",
         "food",
         "home",
         "nature",
@@ -11817,6 +13256,15 @@
         "nature"
       ],
       "clue": "The colorful parts of a flower"
+    },
+    {
+      "word": "PHARAOH",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "history"
+      ],
+      "clue": "An ancient Egyptian ruler"
     },
     {
       "word": "PHASE",
@@ -11835,6 +13283,16 @@
         "home"
       ],
       "clue": "You use it to call people"
+    },
+    {
+      "word": "PHOTOSYNTHESIS",
+      "length": 14,
+      "tier": 2,
+      "themes": [
+        "biology",
+        "nature"
+      ],
+      "clue": "How plants make food from sunlight"
     },
     {
       "word": "PIANO",
@@ -11930,6 +13388,15 @@
         "common"
       ],
       "clue": "A heap of things"
+    },
+    {
+      "word": "PILGRIM",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "history"
+      ],
+      "clue": "An early settler who came to America"
     },
     {
       "word": "PILLOW",
@@ -12112,6 +13579,15 @@
       "clue": "A place with slides and swings"
     },
     {
+      "word": "PLEDGE",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "usa"
+      ],
+      "clue": "A promise said to the flag"
+    },
+    {
       "word": "PLUG",
       "length": 4,
       "tier": 2,
@@ -12137,6 +13613,26 @@
         "jobs"
       ],
       "clue": "A person who fixes pipes"
+    },
+    {
+      "word": "PLURAL",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "language",
+        "school"
+      ],
+      "clue": "More than one, like 'cats'"
+    },
+    {
+      "word": "PLUS",
+      "length": 4,
+      "tier": 2,
+      "themes": [
+        "math",
+        "money"
+      ],
+      "clue": "The sign for adding"
     },
     {
       "word": "PLUTO",
@@ -12204,6 +13700,16 @@
       "clue": "The device that lists all Pokemon"
     },
     {
+      "word": "POLE",
+      "length": 4,
+      "tier": 2,
+      "themes": [
+        "science",
+        "weather"
+      ],
+      "clue": "The top or bottom point of the Earth"
+    },
+    {
       "word": "POLICE",
       "length": 6,
       "tier": 3,
@@ -12246,10 +13752,20 @@
       "length": 6,
       "tier": 2,
       "themes": [
+        "biology",
         "nature",
         "weather"
       ],
       "clue": "Yellow flower dust"
+    },
+    {
+      "word": "POLLUTION",
+      "length": 9,
+      "tier": 2,
+      "themes": [
+        "environment"
+      ],
+      "clue": "Harmful stuff that dirties air or water"
     },
     {
       "word": "POND",
@@ -12319,6 +13835,16 @@
       "clue": "Carries bags"
     },
     {
+      "word": "PORTRAIT",
+      "length": 8,
+      "tier": 2,
+      "themes": [
+        "arts",
+        "music"
+      ],
+      "clue": "A painting of a person"
+    },
+    {
       "word": "POT",
       "length": 3,
       "tier": 1,
@@ -12345,6 +13871,16 @@
         "pokemon"
       ],
       "clue": "A magic drink"
+    },
+    {
+      "word": "POUND",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "math",
+        "time"
+      ],
+      "clue": "A unit of weight, sixteen ounces"
     },
     {
       "word": "POUR",
@@ -12385,9 +13921,11 @@
     {
       "word": "PREDATOR",
       "length": 8,
-      "tier": 3,
+      "tier": 2,
       "themes": [
-        "animals"
+        "animals",
+        "biology",
+        "nature"
       ],
       "clue": "An animal that hunts others"
     },
@@ -12399,6 +13937,15 @@
         "holidays"
       ],
       "clue": "A wrapped gift"
+    },
+    {
+      "word": "PRESIDENT",
+      "length": 9,
+      "tier": 2,
+      "themes": [
+        "usa"
+      ],
+      "clue": "The leader of the United States"
     },
     {
       "word": "PRETEND",
@@ -12419,6 +13966,25 @@
       "clue": "A twisted salty snack"
     },
     {
+      "word": "PREY",
+      "length": 4,
+      "tier": 2,
+      "themes": [
+        "biology",
+        "nature"
+      ],
+      "clue": "An animal that gets hunted"
+    },
+    {
+      "word": "PRICE",
+      "length": 5,
+      "tier": 1,
+      "themes": [
+        "money"
+      ],
+      "clue": "How much something costs"
+    },
+    {
       "word": "PRIDE",
       "length": 5,
       "tier": 2,
@@ -12426,6 +13992,16 @@
         "feelings"
       ],
       "clue": "Feeling pleased with yourself"
+    },
+    {
+      "word": "PRIMARY",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "arts",
+        "music"
+      ],
+      "clue": "Red, yellow, and blue are the ___ colors"
     },
     {
       "word": "PRIMEAPE",
@@ -12599,6 +14175,16 @@
       "clue": "Drag toward you"
     },
     {
+      "word": "PULLEY",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "physics",
+        "science"
+      ],
+      "clue": "A wheel that helps lift heavy things"
+    },
+    {
       "word": "PULSE",
       "length": 5,
       "tier": 2,
@@ -12693,6 +14279,16 @@
       "clue": "Pieces you fit together to make a picture"
     },
     {
+      "word": "PYRAMID",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "geography",
+        "landmarks"
+      ],
+      "clue": "A giant stone tomb in Egypt"
+    },
+    {
       "word": "PYTHON",
       "length": 6,
       "tier": 2,
@@ -12711,10 +14307,21 @@
       "clue": "A small ground bird"
     },
     {
+      "word": "QUARTER",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "math",
+        "money"
+      ],
+      "clue": "One of four equal parts, or 25 cents"
+    },
+    {
       "word": "QUEEN",
       "length": 5,
       "tier": 2,
       "themes": [
+        "history",
         "jobs"
       ],
       "clue": "A female royal ruler"
@@ -12763,6 +14370,16 @@
         "describe"
       ],
       "clue": "Without noise"
+    },
+    {
+      "word": "QUITO",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "capitals",
+        "geography"
+      ],
+      "clue": "The capital of Ecuador"
     },
     {
       "word": "QUIZ",
@@ -12854,6 +14471,7 @@
       "tier": 1,
       "themes": [
         "nature",
+        "science",
         "weather"
       ],
       "clue": "Water that falls from clouds"
@@ -12864,6 +14482,7 @@
       "tier": 2,
       "themes": [
         "nature",
+        "science",
         "weather"
       ],
       "clue": "Colorful arc after the rain"
@@ -12891,8 +14510,9 @@
     {
       "word": "RAINFOREST",
       "length": 10,
-      "tier": 3,
+      "tier": 2,
       "themes": [
+        "environment",
         "nature"
       ],
       "clue": "A warm forest with lots of rain"
@@ -13082,19 +14702,40 @@
       "clue": "A shape like a long square"
     },
     {
+      "word": "RECYCLE",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "environment"
+      ],
+      "clue": "To turn old things into new ones"
+    },
+    {
       "word": "RED",
       "length": 3,
       "tier": 1,
       "themes": [
-        "colors"
+        "colors",
+        "usa"
       ],
       "clue": "The color of a fire truck"
+    },
+    {
+      "word": "REDUCE",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "environment"
+      ],
+      "clue": "To use less of something"
     },
     {
       "word": "REEF",
       "length": 4,
       "tier": 1,
       "themes": [
+        "geography",
+        "landmarks",
         "ocean"
       ],
       "clue": "Where coral and fish live"
@@ -13108,6 +14749,16 @@
         "sports"
       ],
       "clue": "Watches a game for fouls"
+    },
+    {
+      "word": "REFLECT",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "physics",
+        "science"
+      ],
+      "clue": "To bounce light back, like a mirror"
     },
     {
       "word": "REINDEER",
@@ -13148,6 +14799,15 @@
       "clue": "Changes the TV channel"
     },
     {
+      "word": "RENEWABLE",
+      "length": 9,
+      "tier": 2,
+      "themes": [
+        "environment"
+      ],
+      "clue": "Energy that never runs out, like sunlight"
+    },
+    {
       "word": "REPEAT",
       "length": 6,
       "tier": 2,
@@ -13155,6 +14815,16 @@
         "actions"
       ],
       "clue": "Do it again"
+    },
+    {
+      "word": "REPTILE",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "biology",
+        "nature"
+      ],
+      "clue": "A cold-blooded scaly animal"
     },
     {
       "word": "RESCUE",
@@ -13191,6 +14861,15 @@
         "actions"
       ],
       "clue": "Come back"
+    },
+    {
+      "word": "REUSE",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "environment"
+      ],
+      "clue": "To use something again"
     },
     {
       "word": "REVIVE",
@@ -13230,10 +14909,23 @@
       "clue": "A rocky rhino Pokemon"
     },
     {
+      "word": "RHYME",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "arts",
+        "language",
+        "music",
+        "school"
+      ],
+      "clue": "When words end in the same sound"
+    },
+    {
       "word": "RHYTHM",
       "length": 6,
       "tier": 2,
       "themes": [
+        "arts",
         "music"
       ],
       "clue": "The pattern of beats"
@@ -13457,6 +15149,16 @@
       "clue": "Turn over and over"
     },
     {
+      "word": "ROME",
+      "length": 4,
+      "tier": 2,
+      "themes": [
+        "capitals",
+        "geography"
+      ],
+      "clue": "The capital of Italy"
+    },
+    {
       "word": "ROOF",
       "length": 4,
       "tier": 1,
@@ -13481,6 +15183,7 @@
       "length": 4,
       "tier": 2,
       "themes": [
+        "biology",
         "food",
         "home",
         "nature",
@@ -13509,6 +15212,15 @@
         "weather"
       ],
       "clue": "A pretty flower with thorns"
+    },
+    {
+      "word": "ROTATE",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "space"
+      ],
+      "clue": "To spin, like Earth does each day"
     },
     {
       "word": "ROUGH",
@@ -13667,6 +15379,16 @@
         "describe"
       ],
       "clue": "Without danger"
+    },
+    {
+      "word": "SAHARA",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "geography",
+        "landmarks"
+      ],
+      "clue": "The biggest hot desert"
     },
     {
       "word": "SAID",
@@ -13828,6 +15550,15 @@
       "clue": "Past tense of sit"
     },
     {
+      "word": "SATELLITE",
+      "length": 9,
+      "tier": 2,
+      "themes": [
+        "space"
+      ],
+      "clue": "An object that orbits a planet"
+    },
+    {
       "word": "SATURN",
       "length": 6,
       "tier": 3,
@@ -13848,9 +15579,10 @@
     {
       "word": "SAVE",
       "length": 4,
-      "tier": 2,
+      "tier": 1,
       "themes": [
-        "actions"
+        "actions",
+        "money"
       ],
       "clue": "Keep safe"
     },
@@ -13877,7 +15609,9 @@
       "length": 5,
       "tier": 2,
       "themes": [
-        "dinosaurs"
+        "arts",
+        "dinosaurs",
+        "music"
       ],
       "clue": "A tough bit of dinosaur skin"
     },
@@ -13983,6 +15717,16 @@
       "clue": "Clean by rubbing hard"
     },
     {
+      "word": "SCULPTURE",
+      "length": 9,
+      "tier": 2,
+      "themes": [
+        "arts",
+        "music"
+      ],
+      "clue": "Art you can walk around, made of stone or clay"
+    },
+    {
       "word": "SCYTHER",
       "length": 7,
       "tier": 2,
@@ -13997,6 +15741,7 @@
       "length": 3,
       "tier": 1,
       "themes": [
+        "geography",
         "nature",
         "ocean",
         "weather"
@@ -14036,6 +15781,7 @@
       "length": 6,
       "tier": 2,
       "themes": [
+        "math",
         "time"
       ],
       "clue": "Spring, summer, fall, or winter"
@@ -14045,6 +15791,7 @@
       "length": 6,
       "tier": 2,
       "themes": [
+        "math",
         "time"
       ],
       "clue": "A very short bit of time"
@@ -14073,6 +15820,7 @@
       "length": 4,
       "tier": 1,
       "themes": [
+        "biology",
         "food",
         "home",
         "nature",
@@ -14118,6 +15866,36 @@
       "clue": "Make it go elsewhere"
     },
     {
+      "word": "SENSES",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "biology",
+        "body"
+      ],
+      "clue": "Sight, smell, taste, touch, and hearing"
+    },
+    {
+      "word": "SENTENCE",
+      "length": 8,
+      "tier": 2,
+      "themes": [
+        "language",
+        "school"
+      ],
+      "clue": "A complete thought with words"
+    },
+    {
+      "word": "SEOUL",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "capitals",
+        "geography"
+      ],
+      "clue": "The capital of South Korea"
+    },
+    {
       "word": "SERVE",
       "length": 5,
       "tier": 2,
@@ -14161,6 +15939,8 @@
       "tier": 2,
       "themes": [
         "nature",
+        "physics",
+        "science",
         "weather"
       ],
       "clue": "A dark shape from blocked light"
@@ -14179,7 +15959,9 @@
       "length": 5,
       "tier": 2,
       "themes": [
-        "common"
+        "common",
+        "math",
+        "money"
       ],
       "clue": "The form of a thing"
     },
@@ -14531,7 +16313,9 @@
       "length": 4,
       "tier": 2,
       "themes": [
-        "actions"
+        "actions",
+        "physics",
+        "science"
       ],
       "clue": "Drop under water"
     },
@@ -14591,6 +16375,16 @@
       "clue": "Glide on ice or wheels"
     },
     {
+      "word": "SKELETON",
+      "length": 8,
+      "tier": 2,
+      "themes": [
+        "biology",
+        "body"
+      ],
+      "clue": "All your bones together"
+    },
+    {
       "word": "SKETCH",
       "length": 6,
       "tier": 2,
@@ -14607,6 +16401,16 @@
         "sports"
       ],
       "clue": "To slide down a snowy hill"
+    },
+    {
+      "word": "SKIN",
+      "length": 4,
+      "tier": 2,
+      "themes": [
+        "biology",
+        "body"
+      ],
+      "clue": "The covering over your whole body"
     },
     {
       "word": "SKIP",
@@ -15053,6 +16857,7 @@
       "length": 5,
       "tier": 2,
       "themes": [
+        "environment",
         "nature",
         "space"
       ],
@@ -15084,6 +16889,16 @@
         "clothes"
       ],
       "clue": "The bottom of a shoe"
+    },
+    {
+      "word": "SOLID",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "physics",
+        "science"
+      ],
+      "clue": "A state of matter that holds its shape"
     },
     {
       "word": "SOLVE",
@@ -15164,7 +16979,9 @@
       "length": 5,
       "tier": 2,
       "themes": [
-        "common"
+        "common",
+        "physics",
+        "science"
       ],
       "clue": "Something you hear"
     },
@@ -15207,6 +17024,15 @@
       "clue": "A vehicle that flies through space"
     },
     {
+      "word": "SPAIN",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "The country where flamenco began"
+    },
+    {
       "word": "SPARE",
       "length": 5,
       "tier": 2,
@@ -15244,6 +17070,26 @@
       "clue": "A small angry bird Pokemon"
     },
     {
+      "word": "SPECIES",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "biology",
+        "nature"
+      ],
+      "clue": "One kind of animal or plant"
+    },
+    {
+      "word": "SPEED",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "physics",
+        "science"
+      ],
+      "clue": "How fast something moves"
+    },
+    {
       "word": "SPELL",
       "length": 5,
       "tier": 1,
@@ -15254,11 +17100,22 @@
       "clue": "Magic words a wizard says"
     },
     {
-      "word": "SPEND",
-      "length": 5,
+      "word": "SPELLING",
+      "length": 8,
       "tier": 2,
       "themes": [
-        "actions"
+        "language",
+        "school"
+      ],
+      "clue": "Putting letters in the right order"
+    },
+    {
+      "word": "SPEND",
+      "length": 5,
+      "tier": 1,
+      "themes": [
+        "actions",
+        "money"
       ],
       "clue": "Use up money"
     },
@@ -15271,6 +17128,16 @@
         "space"
       ],
       "clue": "A perfectly round ball shape"
+    },
+    {
+      "word": "SPHINX",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "geography",
+        "landmarks"
+      ],
+      "clue": "A statue with a lion's body in Egypt"
     },
     {
       "word": "SPICE",
@@ -15558,6 +17425,16 @@
       "clue": "Be on your feet"
     },
     {
+      "word": "STANZA",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "arts",
+        "music"
+      ],
+      "clue": "A group of lines in a poem"
+    },
+    {
       "word": "STAR",
       "length": 4,
       "tier": 1,
@@ -15605,6 +17482,15 @@
       "clue": "Full of stars"
     },
     {
+      "word": "STARS",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "usa"
+      ],
+      "clue": "The US flag has 50 of these, one per state"
+    },
+    {
       "word": "START",
       "length": 5,
       "tier": 1,
@@ -15631,6 +17517,15 @@
         "pokemon"
       ],
       "clue": "A star-shaped sea Pokemon"
+    },
+    {
+      "word": "STATES",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "usa"
+      ],
+      "clue": "The USA has 50 of these"
     },
     {
       "word": "STAY",
@@ -15674,6 +17569,7 @@
       "length": 4,
       "tier": 2,
       "themes": [
+        "biology",
         "nature",
         "weather"
       ],
@@ -15850,6 +17746,15 @@
       "clue": "You cook on its burners"
     },
     {
+      "word": "STRAIT",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "geography"
+      ],
+      "clue": "A narrow channel between two seas"
+    },
+    {
       "word": "STRAW",
       "length": 5,
       "tier": 2,
@@ -15908,6 +17813,15 @@
       "clue": "A thin cord"
     },
     {
+      "word": "STRIPES",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "usa"
+      ],
+      "clue": "The US flag has 13 of these"
+    },
+    {
       "word": "STROLL",
       "length": 6,
       "tier": 2,
@@ -15963,6 +17877,16 @@
       "clue": "A boat that travels underwater"
     },
     {
+      "word": "SUBTRACT",
+      "length": 8,
+      "tier": 2,
+      "themes": [
+        "math",
+        "money"
+      ],
+      "clue": "To take one number from another"
+    },
+    {
       "word": "SUBWAY",
       "length": 6,
       "tier": 2,
@@ -15988,6 +17912,16 @@
         "food"
       ],
       "clue": "Sweet white stuff for baking"
+    },
+    {
+      "word": "SUM",
+      "length": 3,
+      "tier": 2,
+      "themes": [
+        "math",
+        "money"
+      ],
+      "clue": "The answer to an addition problem"
     },
     {
       "word": "SUMMER",
@@ -16185,6 +18119,16 @@
         "fantasy"
       ],
       "clue": "A knight's blade"
+    },
+    {
+      "word": "SYLLABLE",
+      "length": 8,
+      "tier": 2,
+      "themes": [
+        "language",
+        "school"
+      ],
+      "clue": "A single beat in a word"
     },
     {
       "word": "SYRUP",
@@ -16430,7 +18374,7 @@
     {
       "word": "TELESCOPE",
       "length": 9,
-      "tier": 3,
+      "tier": 2,
       "themes": [
         "space"
       ],
@@ -16444,6 +18388,16 @@
         "actions"
       ],
       "clue": "Say to someone"
+    },
+    {
+      "word": "TEMPERATURE",
+      "length": 11,
+      "tier": 2,
+      "themes": [
+        "science",
+        "weather"
+      ],
+      "clue": "How hot or cold it is"
     },
     {
       "word": "TEN",
@@ -16520,6 +18474,16 @@
       "clue": "The most common word in English"
     },
     {
+      "word": "THEATER",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "arts",
+        "music"
+      ],
+      "clue": "A place where plays are performed"
+    },
+    {
       "word": "THEM",
       "length": 4,
       "tier": 1,
@@ -16545,6 +18509,16 @@
         "common"
       ],
       "clue": "In that place"
+    },
+    {
+      "word": "THERMOMETER",
+      "length": 11,
+      "tier": 2,
+      "themes": [
+        "science",
+        "weather"
+      ],
+      "clue": "A tool that measures temperature"
     },
     {
       "word": "THESE",
@@ -16708,6 +18682,7 @@
       "themes": [
         "nature",
         "pokemon",
+        "science",
         "weather"
       ],
       "clue": "The loud boom after lightning"
@@ -16726,6 +18701,7 @@
       "length": 4,
       "tier": 1,
       "themes": [
+        "geography",
         "ocean"
       ],
       "clue": "The sea going in and out"
@@ -16750,6 +18726,16 @@
       "clue": "A big orange cat with black stripes"
     },
     {
+      "word": "TIMES",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "math",
+        "money"
+      ],
+      "clue": "Another word for multiply"
+    },
+    {
       "word": "TINY",
       "length": 4,
       "tier": 1,
@@ -16758,6 +18744,15 @@
         "feelings"
       ],
       "clue": "Very, very small"
+    },
+    {
+      "word": "TIP",
+      "length": 3,
+      "tier": 1,
+      "themes": [
+        "money"
+      ],
+      "clue": "Extra money you leave for good service"
     },
     {
       "word": "TIRE",
@@ -16833,6 +18828,16 @@
         "describe"
       ],
       "clue": "With each other"
+    },
+    {
+      "word": "TOKYO",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "capitals",
+        "geography"
+      ],
+      "clue": "The capital of Japan"
     },
     {
       "word": "TOLD",
@@ -16916,6 +18921,26 @@
         "actions"
       ],
       "clue": "Past tense of tear"
+    },
+    {
+      "word": "TORNADO",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "science",
+        "weather"
+      ],
+      "clue": "A spinning funnel of wind"
+    },
+    {
+      "word": "TOTAL",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "math",
+        "money"
+      ],
+      "clue": "The whole amount added up"
     },
     {
       "word": "TOUCH",
@@ -17093,6 +19118,16 @@
         "dinosaurs"
       ],
       "clue": "A dinosaur with three horns"
+    },
+    {
+      "word": "TRIPLE",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "math",
+        "money"
+      ],
+      "clue": "Three times as much"
     },
     {
       "word": "TROLL",
@@ -17427,6 +19462,24 @@
       "clue": "A magic horse with a horn"
     },
     {
+      "word": "UNION",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "usa"
+      ],
+      "clue": "The 'United' part of the United States"
+    },
+    {
+      "word": "UNIVERSE",
+      "length": 8,
+      "tier": 2,
+      "themes": [
+        "space"
+      ],
+      "clue": "Everything that exists, all of space"
+    },
+    {
       "word": "UNPACK",
       "length": 6,
       "tier": 2,
@@ -17585,6 +19638,16 @@
       "clue": "A big plant Pokemon with a flower on its back"
     },
     {
+      "word": "VERB",
+      "length": 4,
+      "tier": 2,
+      "themes": [
+        "language",
+        "school"
+      ],
+      "clue": "An action word"
+    },
+    {
       "word": "VERY",
       "length": 4,
       "tier": 1,
@@ -17610,6 +19673,26 @@
         "jobs"
       ],
       "clue": "An animal doctor"
+    },
+    {
+      "word": "VIBRATE",
+      "length": 7,
+      "tier": 2,
+      "themes": [
+        "physics",
+        "science"
+      ],
+      "clue": "To shake back and forth quickly"
+    },
+    {
+      "word": "VIENNA",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "capitals",
+        "geography"
+      ],
+      "clue": "The capital of Austria"
     },
     {
       "word": "VILLAGE",
@@ -17701,8 +19784,10 @@
     {
       "word": "VOLCANO",
       "length": 7,
-      "tier": 3,
+      "tier": 2,
       "themes": [
+        "geography",
+        "landmarks",
         "nature"
       ],
       "clue": "A mountain that erupts lava"
@@ -17716,6 +19801,25 @@
         "pokemon"
       ],
       "clue": "A Pokemon that looks like a Poke Ball"
+    },
+    {
+      "word": "VOTE",
+      "length": 4,
+      "tier": 2,
+      "themes": [
+        "usa"
+      ],
+      "clue": "What citizens do to choose leaders"
+    },
+    {
+      "word": "VOWEL",
+      "length": 5,
+      "tier": 2,
+      "themes": [
+        "language",
+        "school"
+      ],
+      "clue": "A, E, I, O, or U"
     },
     {
       "word": "VOYAGE",
@@ -17884,6 +19988,15 @@
       "clue": "Clean with water"
     },
     {
+      "word": "WASHINGTON",
+      "length": 10,
+      "tier": 2,
+      "themes": [
+        "usa"
+      ],
+      "clue": "The first US President"
+    },
+    {
       "word": "WASP",
       "length": 4,
       "tier": 2,
@@ -17912,6 +20025,16 @@
       "clue": "Give a drink to plants"
     },
     {
+      "word": "WATERCYCLE",
+      "length": 10,
+      "tier": 2,
+      "themes": [
+        "science",
+        "weather"
+      ],
+      "clue": "How water moves through the sky and ground"
+    },
+    {
       "word": "WATERFALL",
       "length": 9,
       "tier": 2,
@@ -17926,6 +20049,7 @@
       "tier": 1,
       "themes": [
         "actions",
+        "geography",
         "ocean"
       ],
       "clue": "Move your hand to say hello"
@@ -18061,6 +20185,16 @@
       "clue": "Find how heavy"
     },
     {
+      "word": "WEIGHT",
+      "length": 6,
+      "tier": 2,
+      "themes": [
+        "physics",
+        "science"
+      ],
+      "clue": "How heavy something is"
+    },
+    {
       "word": "WEIGHTLESS",
       "length": 10,
       "tier": 2,
@@ -18139,6 +20273,8 @@
       "length": 5,
       "tier": 1,
       "themes": [
+        "physics",
+        "science",
         "vehicles"
       ],
       "clue": "A car has four of these"
@@ -18213,9 +20349,19 @@
       "length": 5,
       "tier": 2,
       "themes": [
-        "colors"
+        "colors",
+        "usa"
       ],
       "clue": "The color of snow"
+    },
+    {
+      "word": "WHITEHOUSE",
+      "length": 10,
+      "tier": 2,
+      "themes": [
+        "usa"
+      ],
+      "clue": "Where the US President lives"
     },
     {
       "word": "WHO",
@@ -18283,6 +20429,15 @@
       "clue": "Not tame"
     },
     {
+      "word": "WILDLIFE",
+      "length": 8,
+      "tier": 2,
+      "themes": [
+        "environment"
+      ],
+      "clue": "Wild animals living in nature"
+    },
+    {
       "word": "WILL",
       "length": 4,
       "tier": 2,
@@ -18311,6 +20466,15 @@
         "weather"
       ],
       "clue": "Moving air you can feel"
+    },
+    {
+      "word": "WINDMILL",
+      "length": 8,
+      "tier": 2,
+      "themes": [
+        "environment"
+      ],
+      "clue": "It makes power from the wind"
     },
     {
       "word": "WINDOW",
@@ -18612,7 +20776,9 @@
       "tier": 2,
       "themes": [
         "home",
-        "places"
+        "math",
+        "places",
+        "time"
       ],
       "clue": "The land around a house"
     },
