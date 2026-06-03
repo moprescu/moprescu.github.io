@@ -1,182 +1,174 @@
 [
   {
-    "id": "animals",
-    "title": "Animals We Love",
-    "emoji": "🐾",
+    "id": "animals-nature",
+    "title": "Animals & Nature",
+    "emoji": "🦈",
     "difficulty": "easy",
     "grid": [
-      ["C","A","T","#","D"],
-      ["#","#","#","#","O"],
-      ["#","B","I","R","D"],
-      ["#","#","#","#","#"],
-      ["F","I","S","H","#"]
+      ["B", "#", "D", "#", "S"],
+      ["E", "A", "R", "T", "H"],
+      ["A", "#", "E", "#", "A"],
+      ["C", "H", "A", "I", "R"],
+      ["H", "#", "M", "#", "K"]
     ],
     "words": [
-      {
-        "id": "cat",
-        "word": "CAT",
-        "clue": "A furry pet that says meow",
-        "row": 0, "col": 0,
-        "direction": "across",
-        "number": 1
-      },
-      {
-        "id": "dog",
-        "word": "DOG",
-        "clue": "A pet that barks and wags its tail",
-        "row": 0, "col": 4,
-        "direction": "down",
-        "number": 2
-      },
-      {
-        "id": "bird",
-        "word": "BIRD",
-        "clue": "An animal that can fly",
-        "row": 2, "col": 1,
-        "direction": "across",
-        "number": 3
-      },
-      {
-        "id": "fish",
-        "word": "FISH",
-        "clue": "Swims in water",
-        "row": 4, "col": 0,
-        "direction": "across",
-        "number": 4
-      }
+      { "id": "beach",  "word": "BEACH", "clue": "A sandy place by the sea where you build castles",       "row": 0, "col": 0, "direction": "down",   "number": 1 },
+      { "id": "dream",  "word": "DREAM", "clue": "The little movie in your head while you sleep",           "row": 0, "col": 2, "direction": "down",   "number": 2 },
+      { "id": "shark",  "word": "SHARK", "clue": "A big fish with sharp teeth that lives in the ocean",     "row": 0, "col": 4, "direction": "down",   "number": 3 },
+      { "id": "earth",  "word": "EARTH", "clue": "The planet we all live on",                               "row": 1, "col": 0, "direction": "across", "number": 4 },
+      { "id": "chair",  "word": "CHAIR", "clue": "You sit down on this",                                    "row": 3, "col": 0, "direction": "across", "number": 5 }
     ]
   },
   {
-    "id": "colors",
-    "title": "Rainbow Colors",
-    "emoji": "🌈",
+    "id": "space-7x7",
+    "title": "Space Mini Crossword",
+    "emoji": "🔭",
     "difficulty": "easy",
     "grid": [
-      ["R","E","D","#","#"],
-      ["#","#","#","#","#"],
-      ["B","L","U","E","#"],
-      ["#","#","#","#","#"],
-      ["G","R","E","E","N"]
+      ["C", "R", "Y", "#", "V", "#", "E"],
+      ["L", "#", "#", "B", "E", "A", "M"],
+      ["O", "#", "M", "#", "N", "#", "U"],
+      ["U", "R", "A", "N", "U", "S", "#"],
+      ["D", "#", "R", "#", "S", "#", "O"],
+      ["#", "A", "S", "P", "#", "#", "N"],
+      ["P", "M", "#", "C", "O", "N", "E"]
     ],
     "words": [
-      {
-        "id": "red",
-        "word": "RED",
-        "clue": "Color of a strawberry",
-        "row": 0, "col": 0,
-        "direction": "across",
-        "number": 1
-      },
-      {
-        "id": "blue",
-        "word": "BLUE",
-        "clue": "Color of the sky",
-        "row": 2, "col": 0,
-        "direction": "across",
-        "number": 2
-      },
-      {
-        "id": "green",
-        "word": "GREEN",
-        "clue": "Color of grass",
-        "row": 4, "col": 0,
-        "direction": "across",
-        "number": 3
-      }
+      { "id": "cry",    "word": "CRY",    "clue": "Shed tears when sad",                    "row": 0, "col": 0, "direction": "across", "number": 1  },
+      { "id": "cloud",  "word": "CLOUD",  "clue": "A fluffy white shape in the sky",        "row": 0, "col": 0, "direction": "down",   "number": 1  },
+      { "id": "venus",  "word": "VENUS",  "clue": "The hottest planet",                     "row": 0, "col": 4, "direction": "down",   "number": 2  },
+      { "id": "emu",    "word": "EMU",    "clue": "A big bird that cannot fly",              "row": 0, "col": 6, "direction": "down",   "number": 3  },
+      { "id": "beam",   "word": "BEAM",   "clue": "A ray of light",                         "row": 1, "col": 3, "direction": "across", "number": 4  },
+      { "id": "mars",   "word": "MARS",   "clue": "The red planet",                         "row": 2, "col": 2, "direction": "down",   "number": 5  },
+      { "id": "uranus", "word": "URANUS", "clue": "A planet that spins on its side",        "row": 3, "col": 0, "direction": "across", "number": 6  },
+      { "id": "one",    "word": "ONE",    "clue": "The first number",                       "row": 4, "col": 6, "direction": "down",   "number": 7  },
+      { "id": "asp",    "word": "ASP",    "clue": "A small snake",                          "row": 5, "col": 1, "direction": "across", "number": 8  },
+      { "id": "am",     "word": "AM",     "clue": "Morning hours, for short",               "row": 5, "col": 1, "direction": "down",   "number": 8  },
+      { "id": "pc",     "word": "PC",     "clue": "A home computer, for short",             "row": 5, "col": 3, "direction": "down",   "number": 9  },
+      { "id": "pm",     "word": "PM",     "clue": "Afternoon hours, for short",             "row": 6, "col": 0, "direction": "across", "number": 10 },
+      { "id": "cone",   "word": "CONE",   "clue": "A shape like an ice cream holder",       "row": 6, "col": 3, "direction": "across", "number": 11 }
     ]
   },
   {
-    "id": "space",
+    "id": "space-9x9",
     "title": "Outer Space",
-    "emoji": "🚀",
+    "emoji": "🪐",
     "difficulty": "medium",
     "grid": [
-      ["S","U","N","#","#"],
-      ["#","#","#","#","#"],
-      ["M","O","O","N","#"],
-      ["#","#","#","#","#"],
-      ["S","T","A","R","S"]
+      ["B", "A", "L", "L", "#", "S", "T", "A", "R"],
+      ["U", "#", "U", "#", "#", "P", "#", "N", "#"],
+      ["S", "U", "N", "#", "E", "A", "R", "T", "H"],
+      ["H", "#", "A", "#", "#", "C", "#", "#", "A"],
+      ["#", "D", "R", "I", "V", "E", "R", "#", "T"],
+      ["N", "#", "#", "#", "E", "#", "O", "#", "#"],
+      ["O", "C", "E", "A", "N", "#", "V", "#", "R"],
+      ["V", "#", "Y", "#", "U", "#", "E", "#", "U"],
+      ["A", "R", "E", "#", "S", "#", "R", "I", "B"]
     ],
     "words": [
-      {
-        "id": "sun",
-        "word": "SUN",
-        "clue": "The big bright star in our sky",
-        "row": 0, "col": 0,
-        "direction": "across",
-        "number": 1
-      },
-      {
-        "id": "moon",
-        "word": "MOON",
-        "clue": "Shines at night, we see it from Earth",
-        "row": 2, "col": 0,
-        "direction": "across",
-        "number": 2
-      },
-      {
-        "id": "stars",
-        "word": "STARS",
-        "clue": "Tiny lights we see in the sky at night",
-        "row": 4, "col": 0,
-        "direction": "across",
-        "number": 3
-      }
+      { "id": "ball",   "word": "BALL",   "clue": "You bounce, kick, or throw it",              "row": 0, "col": 0, "direction": "across", "number": 1  },
+      { "id": "bush",   "word": "BUSH",   "clue": "A short, leafy plant",                       "row": 0, "col": 0, "direction": "down",   "number": 1  },
+      { "id": "lunar",  "word": "LUNAR",  "clue": "Having to do with the moon",                 "row": 0, "col": 2, "direction": "down",   "number": 2  },
+      { "id": "star",   "word": "STAR",   "clue": "A twinkling light in the night sky",         "row": 0, "col": 5, "direction": "across", "number": 3  },
+      { "id": "space",  "word": "SPACE",  "clue": "The huge dark place beyond the sky",         "row": 0, "col": 5, "direction": "down",   "number": 3  },
+      { "id": "ant",    "word": "ANT",    "clue": "A tiny insect that lives in a colony",       "row": 0, "col": 7, "direction": "down",   "number": 4  },
+      { "id": "sun",    "word": "SUN",    "clue": "The bright star that warms our days",        "row": 2, "col": 0, "direction": "across", "number": 5  },
+      { "id": "earth",  "word": "EARTH",  "clue": "The planet we all live on",                  "row": 2, "col": 4, "direction": "across", "number": 6  },
+      { "id": "hat",    "word": "HAT",    "clue": "You wear it on your head",                   "row": 2, "col": 8, "direction": "down",   "number": 7  },
+      { "id": "driver", "word": "DRIVER", "clue": "A person who drives a car or bus",           "row": 4, "col": 1, "direction": "across", "number": 8  },
+      { "id": "venus",  "word": "VENUS",  "clue": "The hottest planet",                         "row": 4, "col": 4, "direction": "down",   "number": 9  },
+      { "id": "rover",  "word": "ROVER",  "clue": "A robot car that drives on Mars",            "row": 4, "col": 6, "direction": "down",   "number": 10 },
+      { "id": "nova",   "word": "NOVA",   "clue": "A star that suddenly gets very bright",      "row": 5, "col": 0, "direction": "down",   "number": 11 },
+      { "id": "ocean",  "word": "OCEAN",  "clue": "A huge body of salt water",                  "row": 6, "col": 0, "direction": "across", "number": 12 },
+      { "id": "eye",    "word": "EYE",    "clue": "You see with this",                          "row": 6, "col": 2, "direction": "down",   "number": 13 },
+      { "id": "rub",    "word": "RUB",    "clue": "Move your hand back and forth",              "row": 6, "col": 8, "direction": "down",   "number": 14 },
+      { "id": "are",    "word": "ARE",    "clue": "A form of the word to be",                   "row": 8, "col": 0, "direction": "across", "number": 15 },
+      { "id": "rib",    "word": "RIB",    "clue": "A bone in your chest",                       "row": 8, "col": 6, "direction": "across", "number": 16 }
     ]
   },
   {
-  "id": "animals-nature",
-  "title": "Animals & Nature",
-  "emoji": "🦈",
-  "difficulty": "easy",
-  "grid": [
-    ["B", "#", "D", "#", "S"],
-    ["E", "A", "R", "T", "H"],
-    ["A", "#", "E", "#", "A"],
-    ["C", "H", "A", "I", "R"],
-    ["H", "#", "M", "#", "K"]
-  ],
-  "words": [
-    {
-      "id": "beach",
-      "word": "BEACH",
-      "clue": "A sandy place by the sea where you build castles",
-      "row": 0, "col": 0,
-      "direction": "down",
-      "number": 1
-    },
-    {
-      "id": "dream",
-      "word": "DREAM",
-      "clue": "The little movie in your head while you sleep",
-      "row": 0, "col": 2,
-      "direction": "down",
-      "number": 2
-    },
-    {
-      "id": "shark",
-      "word": "SHARK",
-      "clue": "A big fish with sharp teeth that lives in the ocean",
-      "row": 0, "col": 4,
-      "direction": "down",
-      "number": 3
-    },
-    {
-      "id": "earth",
-      "word": "EARTH",
-      "clue": "The planet we all live on",
-      "row": 1, "col": 0,
-      "direction": "across",
-      "number": 4
-    },
-    {
-      "id": "chair",
-      "word": "CHAIR",
-      "clue": "You sit down on this",
-      "row": 3, "col": 0,
-      "direction": "across",
-      "number": 5
-    }
-  ]
-}
+    "id": "space-9x9-tight",
+    "title": "Blast Off!",
+    "emoji": "🚀",
+    "difficulty": "hard",
+    "grid": [
+      ["B", "O", "Y", "#", "#", "B", "E", "A", "M"],
+      ["U", "#", "#", "P", "M", "#", "A", "#", "A"],
+      ["D", "I", "G", "#", "O", "A", "R", "#", "G"],
+      ["#", "#", "R", "#", "O", "#", "T", "E", "N"],
+      ["#", "L", "A", "U", "N", "C", "H", "#", "E"],
+      ["I", "#", "V", "#", "#", "A", "#", "#", "M"],
+      ["D", "R", "I", "V", "E", "R", "#", "H", "I"],
+      ["#", "#", "T", "#", "Y", "#", "#", "#", "T"],
+      ["S", "K", "Y", "#", "E", "A", "G", "L", "E"]
+    ],
+    "words": [
+      { "id": "boy",       "word": "BOY",       "clue": "A young male",                            "row": 0, "col": 0, "direction": "across", "number": 1  },
+      { "id": "bud",       "word": "BUD",       "clue": "A flower before it opens",                "row": 0, "col": 0, "direction": "down",   "number": 1  },
+      { "id": "beam",      "word": "BEAM",      "clue": "A ray of light",                          "row": 0, "col": 5, "direction": "across", "number": 2  },
+      { "id": "earth",     "word": "EARTH",     "clue": "The planet we all live on",               "row": 0, "col": 6, "direction": "down",   "number": 3  },
+      { "id": "magnemite", "word": "MAGNEMITE", "clue": "A floating magnet Pokemon",               "row": 0, "col": 8, "direction": "down",   "number": 4  },
+      { "id": "pm",        "word": "PM",        "clue": "Afternoon hours, for short",              "row": 1, "col": 3, "direction": "across", "number": 5  },
+      { "id": "moon",      "word": "MOON",      "clue": "It glows in the sky at night",            "row": 1, "col": 4, "direction": "down",   "number": 6  },
+      { "id": "dig",       "word": "DIG",       "clue": "Make a hole in the ground",               "row": 2, "col": 0, "direction": "across", "number": 7  },
+      { "id": "gravity",   "word": "GRAVITY",   "clue": "The force that pulls things down",        "row": 2, "col": 2, "direction": "down",   "number": 8  },
+      { "id": "oar",       "word": "OAR",       "clue": "You row a boat with it",                  "row": 2, "col": 4, "direction": "across", "number": 9  },
+      { "id": "ten",       "word": "TEN",       "clue": "Two times five",                          "row": 3, "col": 6, "direction": "across", "number": 10 },
+      { "id": "launch",    "word": "LAUNCH",    "clue": "To send a rocket into the sky",           "row": 4, "col": 1, "direction": "across", "number": 11 },
+      { "id": "car",       "word": "CAR",       "clue": "You drive it on the road",                "row": 4, "col": 5, "direction": "down",   "number": 12 },
+      { "id": "id",        "word": "ID",        "clue": "A card that shows who you are",           "row": 5, "col": 0, "direction": "down",   "number": 13 },
+      { "id": "driver",    "word": "DRIVER",    "clue": "A person who drives a car or bus",        "row": 6, "col": 0, "direction": "across", "number": 14 },
+      { "id": "eye",       "word": "EYE",       "clue": "You see with this",                       "row": 6, "col": 4, "direction": "down",   "number": 15 },
+      { "id": "hi",        "word": "HI",        "clue": "A friendly greeting",                     "row": 6, "col": 7, "direction": "across", "number": 16 },
+      { "id": "sky",       "word": "SKY",       "clue": "What is above you outdoors",              "row": 8, "col": 0, "direction": "across", "number": 17 },
+      { "id": "eagle",     "word": "EAGLE",     "clue": "A powerful bird with great eyesight",     "row": 8, "col": 4, "direction": "across", "number": 18 }
+    ]
+  },
+  {
+    "id": "pokemon-9x9",
+    "title": "Gotta Solve 'Em All!",
+    "emoji": "🔴", 
+    "difficulty": "hard",
+    "grid": [
+      ["#", "C", "A", "B", "#", "B", "O", "S", "S"],
+      ["O", "#", "L", "E", "D", "#", "B", "A", "T"],
+      ["L", "A", "S", "T", "#", "D", "O", "M", "E"],
+      ["D", "R", "O", "W", "Z", "E", "E", "#", "W"],
+      ["#", "E", "#", "E", "#", "S", "#", "W", "#"],
+      ["D", "#", "P", "E", "R", "S", "I", "A", "N"],
+      ["R", "A", "I", "N", "#", "E", "D", "G", "E"],
+      ["E", "S", "P", "#", "O", "R", "E", "#", "T"],
+      ["W", "H", "E", "N", "#", "T", "A", "N", "#"]
+    ],
+    "words": [
+      { "id": "cab",     "word": "CAB",     "clue": "A taxi",                                  "row": 0, "col": 1, "direction": "across", "number": 1 },
+      { "id": "also",    "word": "ALSO",    "clue": "As well; too",                            "row": 0, "col": 2, "direction": "down"  , "number": 2 },
+      { "id": "between", "word": "BETWEEN", "clue": "In the middle of two things",             "row": 0, "col": 3, "direction": "down"  , "number": 3 },
+      { "id": "boss",    "word": "BOSS",    "clue": "The big enemy at the end of a level",     "row": 0, "col": 5, "direction": "across", "number": 4 },
+      { "id": "oboe",    "word": "OBOE",    "clue": "A thin woodwind instrument",              "row": 0, "col": 6, "direction": "down"  , "number": 5 },
+      { "id": "sam",     "word": "SAM",     "clue": "Short for Samuel",                        "row": 0, "col": 7, "direction": "down"  , "number": 6 },
+      { "id": "stew",    "word": "STEW",    "clue": "A thick soup with meat",                  "row": 0, "col": 8, "direction": "down"  , "number": 7 },
+      { "id": "old",     "word": "OLD",     "clue": "Not young or new",                        "row": 1, "col": 0, "direction": "down"  , "number": 8 },
+      { "id": "led",     "word": "LED",     "clue": "Showed the way",                          "row": 1, "col": 2, "direction": "across", "number": 9 },
+      { "id": "bat",     "word": "BAT",     "clue": "A flying animal that sleeps upside down", "row": 1, "col": 6, "direction": "across", "number": 10 },
+      { "id": "last",    "word": "LAST",    "clue": "The one at the end",                      "row": 2, "col": 0, "direction": "across", "number": 11 },
+      { "id": "are",     "word": "ARE",     "clue": "A form of the word to be",                "row": 2, "col": 1, "direction": "down"  , "number": 12 },
+      { "id": "dome",    "word": "DOME",    "clue": "A rounded roof, like an observatory",     "row": 2, "col": 5, "direction": "across", "number": 13 },
+      { "id": "dessert", "word": "DESSERT", "clue": "The sweet end of a meal",                 "row": 2, "col": 5, "direction": "down"  , "number": 13 },
+      { "id": "drowzee", "word": "DROWZEE", "clue": "A Pokemon that eats your dreams",         "row": 3, "col": 0, "direction": "across", "number": 14 },
+      { "id": "wag",     "word": "WAG",     "clue": "What a dog does with its tail",           "row": 4, "col": 7, "direction": "down"  , "number": 15 },
+      { "id": "drew",    "word": "DREW",    "clue": "Made a picture with a pencil",            "row": 5, "col": 0, "direction": "down"  , "number": 16 },
+      { "id": "persian", "word": "PERSIAN", "clue": "A fancy cat Pokemon",                     "row": 5, "col": 2, "direction": "across", "number": 17 },
+      { "id": "pipe",    "word": "PIPE",    "clue": "Mario travels through a green ___",       "row": 5, "col": 2, "direction": "down"  , "number": 17 },
+      { "id": "idea",    "word": "IDEA",    "clue": "A thought",                               "row": 5, "col": 6, "direction": "down"  , "number": 18 },
+      { "id": "net",     "word": "NET",     "clue": "It divides the tennis court in half",                     "row": 5, "col": 8, "direction": "down"  , "number": 19 },
+      { "id": "rain",    "word": "RAIN",    "clue": "Water that falls from clouds",            "row": 6, "col": 0, "direction": "across", "number": 20 },
+      { "id": "ash",     "word": "ASH",     "clue": "The Pokemon trainer with a red cap",          "row": 6, "col": 1, "direction": "down"  , "number": 21 },
+      { "id": "edge",    "word": "EDGE",    "clue": "The border of something",                 "row": 6, "col": 5, "direction": "across", "number": 22 },
+      { "id": "esp",     "word": "ESP",     "clue": "Short for \"especially\"",                "row": 7, "col": 0, "direction": "across", "number": 23 },
+      { "id": "ore",     "word": "ORE",     "clue": "Rock that metal comes from",              "row": 7, "col": 4, "direction": "across", "number": 24 },
+      { "id": "when",    "word": "WHEN",    "clue": "A question word about time",              "row": 8, "col": 0, "direction": "across", "number": 25 },
+      { "id": "tan",     "word": "TAN",     "clue": "A light brown color",                     "row": 8, "col": 5, "direction": "across", "number": 26 }
+    ]
+  }
 ]

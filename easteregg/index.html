@@ -436,7 +436,8 @@
     <div class="action-row">
       <button class="btn btn-secondary" onclick="checkAnswers()">Check ✓</button>
       <button class="btn btn-secondary" onclick="clearPuzzle()">Clear ✗</button>
-      <button class="btn btn-secondary" onclick="revealAll()">Reveal 💡</button>
+      <button class="btn btn-secondary" onclick="revealWord()">Reveal Word 💡</button>
+      <button class="btn btn-secondary" onclick="revealAll()">Reveal All 💡</button>
     </div>
     <div class="clues-section">
       <div class="clues-cols">
@@ -893,6 +894,24 @@ function clearPuzzle() {
   });
   document.getElementById("win-banner").style.display = "none";
   updateProgress();
+}
+
+function revealWord() {
+  if (!currentPuzzle || !activeWord) return;
+  const { row, col, direction, word } = activeWord;
+  for (let i = 0; i < word.length; i++) {
+    const r = direction === "across" ? row : row + i;
+    const c = direction === "across" ? col + i : col;
+    const inp = getInput(r, c);
+    if (!inp) continue;
+    inp.value = currentPuzzle.grid[r][c];
+    inp.classList.remove("wrong");
+    inp.classList.add("correct");
+    userAnswers[currentPuzzle.id][`${r},${c}`] = currentPuzzle.grid[r][c];
+  }
+  saveStorage();
+  updateProgress();
+  checkAutoComplete();
 }
 
 function revealAll() {
