@@ -93,6 +93,45 @@ h4 {
   padding: 3px;
 }
 
+.lab-heading {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin-bottom: 1rem;
+}
+.lab-heading h4 {
+  margin-bottom: 0;
+}
+.lab-icon {
+  height: 3.5rem;
+  width: auto;
+}
+@media (min-width: 750px) {
+  .lab-icon {
+    height: 4.5rem;
+  }
+}
+
+/*  ================ Lab info styling  ================ */
+.lab-info > summary {
+  display: list-item;
+  cursor: pointer;
+}
+
+.lab-info-content {
+  margin-top: 0.75rem;
+  padding-left: 1.25rem;
+  border-left: 2px solid #e5e5e5;
+}
+
+.lab-info-content p {
+  margin: 0 0 0.75rem;
+}
+
+.lab-info-content p:last-child {
+  margin-bottom: 0;
+}
+
 /* Larger than phone */
 @media (min-width: 550px) {
   .header {
@@ -214,4 +253,30 @@ h4 {
   .popover-link:hover,
   .popover-item:first-child .popover-link:hover:after {
     border-bottom-color: #33C3F0; }
+}
+
+#news .news-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#news .news-list > li {
+  margin-bottom: 0.9rem;
+}
+
+#news .news-archive > summary {
+  display: list-item;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+#news .news-archive[open] > summary {
+  margin-bottom: 0.9rem;
+}
+
+#news .news-archive > .news-list {
+  max-height: 300px;
+  overflow-y: auto;
+  padding-right: 0.75rem;
 }
